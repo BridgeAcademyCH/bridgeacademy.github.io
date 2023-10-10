@@ -13,6 +13,8 @@
 }
 .signup {
     float: right;
+    margin: 5px;
+    border: yellow;
 }
 .signin{
     float: right;
