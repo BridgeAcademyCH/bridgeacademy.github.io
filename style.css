@@ -21,11 +21,10 @@
     margin: 5px;
     border: rgba(255, 173, 0);
 }
-congrats.html{
-h1{font-family: TT Commons Pro Expand; font-style: oblique;}
-h2{font-family: TT Commons Pro Expand ;}
+h1{font-family: Arial, Helvetica, sans-serif; font-style: oblique;}
+h2{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
 p1{text-decoration-color: rgb(red, green, blue), 173, 0;}
-}
+
 .scinotit{
     background-color: rgb(255, 225, 161);
 }
