@@ -14,8 +14,22 @@
 .signup {
     float: right;
     margin: 5px;
-    border: yellow;
+    border: rgba(255, 173, 0);
 }
 .signin{
     float: right;
+    margin: 5px;
+    border: rgba(255, 173, 0);
 }
+congrats.html{
+h1{font-family: TT Commons Pro Expand; font-style: oblique;}
+h2{font-family: TT Commons Pro Expand ;}
+p1{text-decoration-color: rgb(red, green, blue), 173, 0;}
+}
+.scinotit{
+    background-color: rgb(255, 225, 161);
+}
+.scinofoot{
+    
+}
+Ahhhhh y como se si ta bien?
