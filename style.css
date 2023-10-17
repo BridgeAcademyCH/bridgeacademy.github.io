@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Tilt Neon';
-    src: url('./img/fuente.ttf') format('truetype');
+    src: url('img/fuente.ttf') format('truetype');
   }
   .logobridge { /*eliminar esto tal vez*/
     display: flex;
