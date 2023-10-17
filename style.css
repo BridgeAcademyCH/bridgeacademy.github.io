@@ -1,34 +1,29 @@
-.textopresentativo {
-    text-align: center;
-}
-.logobridge {
+.logobridge { /*eliminar esto tal vez*/
     display: flex;
     justify-content: left;
     align-items: left;
     height: 8vh; 
-}       
-.logobridge {
+}    
+.logobridge { /*eliminar*/
     max-width: 100%;
     max-height: 100%;
 }
-.signup {
+.signup { /*eliminar*/
     float: right;
     margin: 5px;
     border: rgba(255, 173, 0);
 }
-.signin{
+.signin{ /*eliminar*/
     float: right;
     margin: 5px;
     border: rgba(255, 173, 0);
 }
-h1{font-family: Arial, Helvetica, sans-serif; font-style: oblique;}
-h2{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
-p1{text-decoration-color: rgb(red, green, blue), 173, 0;}
-
-.scinotit{
-    background-color: rgb(255, 225, 161);
+.congrats{
+    font-family: Arial, Helvetica, sans-serif; font-style: oblique;
 }
-.scinofoot{
-    
+.congrats2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
-Ahhhhh y como se si ta bien?
+.congrats3{
+    text-decoration-color: rgb(red, green, blue), 173, 0;
+}
