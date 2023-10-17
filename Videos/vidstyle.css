@@ -11,9 +11,10 @@
     margin-right: -2px;
     margin-bottom: -2px;
     margin-left: 10px;
+    margin-top: 10px;
 }
 .vidstit {
     font-family: 'Tilt Neon', sans-serif;
     font-size: 60px;
-    margin-left: 20px;
+    display: center;
 }
