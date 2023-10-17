@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Tilt Neon';
-    src: url('../img/fuente.ttf') format('ttf');
+    src: url('../img/fuente.ttf') format('truetype');
   }
   
 .scinotit{
@@ -10,9 +10,10 @@
     float: left;
     width: 20%;
     height: auto;
-    margin-right: 10px;
+    margin-right: -2px;
+    margin-bottom: -2px;
   }
 .vidstit{
     font-family: 'Tilt Neon', sans-serif;
-    font-size: 36px;
+    font-size: 60px;
 }
