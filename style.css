@@ -29,5 +29,6 @@
     font-family: 'Tilt Neon', sans-serif ;
 }
 .congrats3{
-    text-decoration-color: rgb(red, green, blue), 173, 0;
+    color: rgba(255, 173, 0);
+    font-family: 'Tilt Neon', sans-serif;
 }
