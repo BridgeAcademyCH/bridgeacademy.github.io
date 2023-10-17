@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Tilt Neon';
-    src: url('../img/fuente.ttf') format('truetype');
+    src: url('../img/fuente.ttf') format('ttf');
   }
   
 .scinotit{
     position: relative;
     background-color: rgb(255, 225, 161);
 }
-.flecha{
+.flecha1{
     float: left;
-    width: 2%;
+    width: 20%;
     height: auto;
     margin-right: 10px;
   }
