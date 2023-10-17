@@ -6,16 +6,13 @@
 .scinotit{
     position: relative;
     background-color: rgb(255, 225, 161);
-    display: inline-block;
 }
 .flecha{
-    position: absolute;
     float: left;
     width: 2%;
     height: auto;
-    background-color: transparent;
+    margin-right: 10px;
   }
 .vidstit{
     font-family: 'Tilt Neon', sans-serif;
-    margin-left: 70px
 }
