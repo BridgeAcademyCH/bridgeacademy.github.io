@@ -8,7 +8,7 @@
 }
 .flecha1{
     float: left;
-    width: 20%;
+    width: 90px;
     height: auto;
     margin-right: -2px;
     margin-bottom: -2px;
@@ -16,4 +16,6 @@
 .vidstit{
     font-family: 'Tilt Neon', sans-serif;
     font-size: 60px;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
