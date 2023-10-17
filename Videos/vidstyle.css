@@ -7,14 +7,13 @@
     position: relative;
     background-color: rgb(255, 225, 161);
 }
-.flecha{    
+.flecha{
     float: left;
     width: 2%;
     height: auto;
     margin-right: 10px;
-    transform: rotate(45deg);
   }
 .vidstit{
-    font-family:  sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
     font-size: 36px;
 }
