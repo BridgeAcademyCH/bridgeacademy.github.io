@@ -2,18 +2,16 @@
     font-family: 'Tilt Neon';
     src: url('../img/fuente.ttf') format('truetype');
   }
-  
   .scinotit {
     background-color: rgb(255, 225, 161);
 }
-
 .flecha1 {
     width: 50px;
     height: auto;
     margin-right: -2px;
     margin-bottom: -2px;
+    margin-left: 10px;
 }
-
 .vidstit {
     font-family: 'Tilt Neon', sans-serif;
     font-size: 60px;
