@@ -3,20 +3,23 @@
     src: url('../img/fuente.ttf') format('truetype');
   }
   
-.scinotit{
+  .scinotit {
     background-color: rgb(255, 225, 161);
 }
-.flecha1{
-  display: flex;
-    vertical-align: middle;
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.flecha1 {
     width: 50px;
     height: auto;
     margin-right: -2px;
     margin-bottom: -2px;
-  }
-.vidstit{
-  display: flex;
+}
+
+.vidstit {
     font-family: 'Tilt Neon', sans-serif;
     font-size: 60px;
-    vertical-align: middle;
 }
