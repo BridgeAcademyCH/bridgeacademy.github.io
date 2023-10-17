@@ -7,7 +7,7 @@
     position: relative;
     background-color: rgb(255, 225, 161);
 }
-.flecha1{
+.flecha{
     float: left;
     width: 2%;
     height: auto;
@@ -15,4 +15,5 @@
   }
 .vidstit{
     font-family: 'Tilt Neon', sans-serif;
+    font-size: large;
 }
