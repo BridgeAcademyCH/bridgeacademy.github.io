@@ -7,11 +7,6 @@
     background-color: rgb(255, 225, 161);
 }
 
-.aligner {
-    display: flex;
-    align-items: center;
-}
-
 .flecha1 {
     width: 50px;
     height: auto;
