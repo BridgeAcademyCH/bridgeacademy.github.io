@@ -4,9 +4,11 @@
   }
   
 .scinotit{
+    position: relative;
     background-color: rgb(255, 225, 161);
 }
 .flecha{
+    position: absolute;
     float: left;
     width: 2%;
     height: auto;
