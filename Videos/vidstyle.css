@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Fuente';
+    font-family: 'Tilt Neon';
     src: url('../img/fuente.ttf') format('truetype');
   }
   
@@ -13,5 +13,5 @@
     margin-right: 10px;
   }
 .vidstit{
-    font-family: 'Fuente', sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
