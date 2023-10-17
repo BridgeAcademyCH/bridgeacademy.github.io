@@ -1,6 +1,17 @@
+@font-face {
+    font-family: 'Fuente';
+    src: url('../img/fuente.ttf') format('truetype');
+  }
+  
 .scinotit{
     background-color: rgb(255, 225, 161);
 }
+.flecha{
+    float: left;
+    width: 5%;
+    height: auto;
+    margin-right: 10px;
+  }
 .vidstit{
-    
+    font-family: 'Fuente', sans-serif;
 }
