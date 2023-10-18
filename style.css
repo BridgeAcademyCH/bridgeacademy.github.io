@@ -33,9 +33,11 @@
     font-family: 'Tilt Neon', sans-serif;
 }
 
-.chembutt{
+.btn-groupt{
+    
+    align-items: center;
 height: 100px;
-width: 80px;
+width: 100px;
 color-scheme:151, 204, 205 ;
 }
 .History{
