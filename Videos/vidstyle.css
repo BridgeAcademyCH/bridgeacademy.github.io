@@ -13,11 +13,36 @@
     margin: 10px 0 0 10px; /* Arriba, Derecha, Abajo, Izquierda */
 }
 
+.scinovid{
+    margin-left: 40px;
+    position: relative;
+}
+.quizzbutt{
+margin-left: 1035px;
+position: absolute;
+top: 50%; transform: translateY(-50%);
+}
+
+.quizlink{
+font-size: 30px;
+font-family: 'Tilt Neon';
+padding: 10px 15px;
+}
+
+.congslink{
+font-size: 30px;
+font-family: 'Tilt Neon';
+padding: 10px 15px;
+}
+
+.thisis{
+font-family: 'Tilt Neon';
+font-size: 40px;
+}
+
 .vidstit {
     font-family: 'Tilt Neon', sans-serif;
     font-size: 60px;
-    text-align: center;
-    margin-left: 10px;
 }
 
 .infovid0{
@@ -27,6 +52,7 @@
 .infovid{
   font-family: 'Tilt Neon', sans-serif;
   font-size: 40px;
+  margin-bottom: -10px;
 }
 .infovid1{
   font-family: 'Tilt Neon', sans-serif;
