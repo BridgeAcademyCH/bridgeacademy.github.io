@@ -38,3 +38,6 @@ height: 100px;
 width: 80px;
 color-scheme:151, 204, 205 ;
 }
+.History{
+    button ="button" class="btn btn-warning">Warning</button>
+}
