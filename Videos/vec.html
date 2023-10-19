@@ -8,32 +8,41 @@
     <meta name="keywords" content="Bridge Academy, School, Physics, Biology, History, Chemistry, Quizzes, Videos, Bridge">
     <link rel="shortcut icon" type="image/x.icon" href="../img/Logo.png">
     <link rel="stylesheet" type="text/css" href="vidstyle.css">
-    <title> Bridge Academy - Vectors</title>
+    <title> Bridge Academy - Vectors </title>
 </head>
 <body>
     <header>
-        <div>
-            <img src="../img/logobridge.png" alt="logobridge" class="logobridge" onclick="window.location.href='../BA.html'">
-        </div>
+        <div style="display: grid; grid-template-columns: auto auto;">
+               <img src="../img/logobridge.png" alt="logobridge" class="logobridge">
+           </div>
     </header>
         <div class=scinotit>
-        <p class="vidstit"> <img src="../img/flecha1.png" class="flecha1"> Vectors </p></div>
+        <p class="vidstit"> <img src="../img/flecha1.png" class="flecha1" onselect="window.location.href='../fisica.html'"> Vectors </p></div>
     <div class="infovid0">
         <h2 class="infovid"> Lesson #1 </h2>
         <h3 class="infovid1"> Informative Video </h3>
     </div>
     <div class="scinovid">
-        <iframe width="645" height="400" src="https://www.youtube.com/embed/is2mZG3dXJA?si=qRhYCHd6BXhRsF0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="645" height="400" src="https://www.youtube.com/embed/ml4NSzCQobk?si=LlMxeDUEclUSgbwA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <div class="quizzbutt d-flex justify-content-end align-items-center">
         <div class="text-center">
             <h3 class="thisis">This is the quiz from the video:</h3>
             <br>
             <div class="d-grid gap-2 col-6 mx-auto">
-                <button class="fiquizlink btn" type="button">Click here</button>
-                <button class="ficongslink btn" type="button">Have you already completed it?</button>
+                <button class="fiquizlink btn" type="button" onclick="openNewTab()">Click here</button>
+                <button class="ficongslink btn" type="button" onclick="window.location.href='../congrats.html'">Have you already completed it?</button>
             </div>
         </div>
     </div>
+    <footer>
+        <img src="../img/piedepagina.png" alt="footer">
+    </footer>
+    <script>
+        function openNewTab() {
+          var url = 'https://quizizz.com/join/presentation/6033e163af4d4d001b7c4462/start?studentShare=true';
+          window.open(url, '_blank');
+        }
+        </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
