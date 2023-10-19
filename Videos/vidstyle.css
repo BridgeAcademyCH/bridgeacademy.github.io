@@ -165,7 +165,6 @@ nav {
   display: inline-block;
   max-width: 100%;
   max-height: 100%;
- 
 }
 .logout {
   display: inline-block;
@@ -199,6 +198,7 @@ background-color: rgb(221, 144, 0);
 .registro:active{
 background-color: rgb(194, 126, 1);
 }
+
 .inicio {
 font-size: 20px;
 font-family: 'Tilt Neon';
