@@ -38,6 +38,9 @@ background-color: rgb(255, 225, 161)
 .fiquizlink:active, .ficongslink:active {
 background-color: rgb(153, 135, 96); /*multiplicar valores de rgb por 0,6*/
 }
+.fiquizlink:hover, .ficongslink:hover {
+  background-color: rgb(153, 135, 96);
+}
 .thisis{
 font-family: 'Tilt Neon';
 font-size: 30px;

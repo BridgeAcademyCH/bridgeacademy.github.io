@@ -1,0 +1,130 @@
+.textopresentativo {
+    text-align: center;
+}
+
+.nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  user-select: none;
+}
+
+.logobridge {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 8vh; 
+}       
+.logobridge {
+    margin-top: 10px;
+    display: inline-block;
+    max-width: 100%;
+    max-height: 95%;
+    margin-right: 700px;
+    vertical-align: middle;
+   
+    
+}
+.home {
+    display: inline-block;
+    padding: 14px 28px ;
+    background-color: orange;
+    border-color: orange;
+    border-style: solid;
+    color:white;
+    text-decoration: underline;
+    font-size: medium;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+.salir{
+    display: inline-block;
+    padding: 14px 28px ;
+   background-color: orange;
+   border-color: orange;
+    border-style: solid;
+    color: white;
+    text-decoration: underline;
+    font-size: medium;
+    vertical-align: middle;
+  
+}
+hr{
+border-color: #E8E8E8;
+border-style: solid;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-left: 35px;
+color: #8F8F8F;
+}
+
+.cardsM{
+  display: grid;
+ grid-template-columns: auto auto auto auto;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+
+    .cuadro {
+        display: inline-block;
+        width: 250px; 
+        height: 250px;
+        background-color: #FEE3A2; 
+        margin-right: 50px;
+        margin-left: 70px;
+       
+    }
+
+      .imagen {
+        width: 95%; 
+        height: 95%; 
+}
+.cuadro2{
+    display: inline-block;
+    width: 250px; 
+    height: 250px; 
+      background-color: #ADCACB; 
+    margin-right: 50px;
+  
+   
+  }
+  .imagen2 {
+    width: 95%; 
+    height: 95%;   
+
+}
+.cuadro3{
+    display: inline-block;
+    width: 250px; 
+    height: 250px; 
+    background-color: #87C159; 
+    margin-right: 50px;
+   
+  }
+  .imagen3{
+    width: 95%; 
+    height: 95%;   
+  }
+  .cuadro4{
+   display: inline-block;
+    width: 250px; 
+    height: 250px; 
+    background-color: #056E3C; 
+    margin-right: 50px;
+    
+   
+  }
+  .imagen4{
+    width: 95%; 
+    height: 95%;   
+  }
+  
+  section{
+   size: 50px;
+  }
