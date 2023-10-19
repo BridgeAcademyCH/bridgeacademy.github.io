@@ -24,17 +24,15 @@
 }
 .congrats{
     font-family: 'Tilt Neon', sans-serif;
-    font-size: large;
+    font-size: 50px;
 }
 .congrats2{
     font-family: 'Tilt Neon', sans-serif ;
-    font-size: x-large;
-    font-weight: 300px;
+    font-size: 40px;
 }
 .congrats3{
     color: rgba(255, 173, 0);
     font-family: 'Tilt Neon', sans-serif;
-    font-weight: 200px;
 }
 
 .btn-groupt{

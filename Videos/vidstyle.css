@@ -185,3 +185,81 @@ nav {
   width: 170px;
   height: 50px;
 }
+.registro {
+font-size: 20px;
+color: white;
+border: none;
+background-color: orange;
+transition: background-color 0.3s;
+}
+.registro:hover {
+background-color: rgb(221, 144, 0);
+}
+.registro:active{
+background-color: rgb(194, 126, 1);
+}
+.inicio {
+font-size: 20px;
+color: white;
+border: none;
+background-color: orange;
+transition: background-color 0.3s;
+}
+.inicio:hover {
+background-color: rgb(221, 144, 0);
+}
+.inicio:active{
+background-color: rgb(194, 126, 1);
+}
+.logout {
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: orange;
+    transition: background-color 0.3s;
+    }
+    .logout:hover {
+    background-color: rgb(221, 144, 0);
+    }
+    .logout:active{
+    background-color: rgb(194, 126, 1);
+    }
+    .registro {
+      font-size: 20px;
+      color: white;
+      border: none;
+      background-color: orange;
+      transition: background-color 0.3s;
+      }
+      .registro:hover {
+      background-color: rgb(221, 144, 0);
+      }
+      .registro:active{
+      background-color: rgb(194, 126, 1);
+      }
+      .inicio {
+      font-size: 20px;
+      color: white;
+      border: none;
+      background-color: orange;
+      transition: background-color 0.3s;
+      }
+      .inicio:hover {
+      background-color: rgb(221, 144, 0);
+      }
+      .inicio:active{
+      background-color: rgb(194, 126, 1);
+      }
+      .logout {
+          font-size: 20px;
+          color: white;
+          border: none;
+          background-color: orange;
+          transition: background-color 0.3s;
+          }
+          .logout:hover {
+          background-color: rgb(221, 144, 0);
+          }
+          .logout:active{
+          background-color: rgb(194, 126, 1);
+          }
