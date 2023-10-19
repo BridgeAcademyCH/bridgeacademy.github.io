@@ -1,3 +1,15 @@
 .physbutt{
     background-color: rgb(255, 225, 161);
+    width: 43px;
+    height: 30px;
+}
+.histbutt{
+    background-color: rgb(135,193,89);
+    width: 43px;
+    height: 30px;
+}
+.biobutt{
+    background-color: rgb(5, 110, 60);
+    width: 43px;
+    height: 30px;
 }
