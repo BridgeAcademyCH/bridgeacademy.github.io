@@ -28,11 +28,13 @@
 }
 .congrats2{
     font-family: 'Tilt Neon', sans-serif ;
-    font-size: medium;
+    font-size: x-large;
+    font-weight: 300px;
 }
 .congrats3{
     color: rgba(255, 173, 0);
     font-family: 'Tilt Neon', sans-serif;
+    font-weight: 200px;
 }
 
 .btn-groupt{
