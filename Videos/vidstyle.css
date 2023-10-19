@@ -2,6 +2,32 @@
   font-family: 'Tilt Neon';
   src: url('../img/fuente.ttf') format('truetype');
 }
+.registro {
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.registro:hover {
+  background-color: rgb(221, 144, 0);
+}
+.registro:active{
+  background-color: rgb(194, 126, 1);
+}
+.inicio {
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.inicio:hover {
+  background-color: rgb(221, 144, 0);
+}
+.inicio:active{
+  background-color: rgb(194, 126, 1);
+}
 .scinotit {
   background-color: rgb(255, 225, 161);
   height: 90px;
@@ -11,58 +37,44 @@
   height: auto;
   margin-bottom: 10px;
 }
-
 .scinovid{
   margin-left: 60px;
   margin-top: 25px;
   position: relative;
 }
-
 .quizzbutt{
 margin-left: 850px;
 margin-top: 80px;
 position: absolute;
 top: 50%; transform: translateY(-50%);
 }
-
 .fiquizlink{
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161);
 }
-
-
 .ficongslink{
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161)
 }
-
-.fiquizlink:hover, .ficongslink:hover {
-background-color: rgb(204, 180, 129) /*multiplicar valores de rgb por 0,8*/
-}
-
 .fiquizlink:active, .ficongslink:active {
 background-color: rgb(153, 135, 96); /*multiplicar valores de rgb por 0,6*/
 }
-
 .thisis{
 font-family: 'Tilt Neon';
 font-size: 30px;
 }
-
 .vidstit {
   font-family: 'Tilt Neon', sans-serif;
   font-size: 60px;
   margin-left: 10px;
 }
-
 .infovid0{
 margin-left: 60px;
 }
-
 .infovid{
 font-family: 'Tilt Neon', sans-serif;
 font-size: 45px;
