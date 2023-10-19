@@ -83,7 +83,7 @@ background-color: rgb(0, 107, 61); /*multiplicar valores de rgb por 0,8*/
 
 /*HISTORIA*/
 .wwstit {
-  background-color: rgb(78, 197, 103);
+  background-color: rgb(135,193,89);
   height: 90px;
 }
 .flecha4 {
@@ -95,16 +95,16 @@ background-color: rgb(0, 107, 61); /*multiplicar valores de rgb por 0,8*/
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
-background-color: rgb(78, 197, 103);
+background-color: rgb(135,193,89);
 }
 .hiscongslink{
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
-background-color: rgb(78, 197, 103)
+background-color: rgb(135,193,89);
 }
 .hisquizlink:active, .hiscongslink:active {
-background-color: rgb(62, 157, 82); /*multiplicar valores de rgb por 0,8*/
+background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
 }
 
 /*PERMA*/
