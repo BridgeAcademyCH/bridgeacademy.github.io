@@ -229,6 +229,7 @@ background-color: rgb(194, 126, 1);
     }
     .registro {
       font-size: 20px;
+      font-family: 'Tilt Neon';
       color: white;
       border: none;
       background-color: orange;
@@ -242,6 +243,7 @@ background-color: rgb(194, 126, 1);
       }
       .inicio {
       font-size: 20px;
+      font-family: 'Tilt Neon';
       color: white;
       border: none;
       background-color: orange;
