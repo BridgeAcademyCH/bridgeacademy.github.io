@@ -24,9 +24,11 @@
 }
 .congrats{
     font-family: 'Tilt Neon', sans-serif;
+    font-size: large;
 }
 .congrats2{
     font-family: 'Tilt Neon', sans-serif ;
+    font-size: medium;
 }
 .congrats3{
     color: rgba(255, 173, 0);
