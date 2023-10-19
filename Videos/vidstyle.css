@@ -57,7 +57,7 @@ background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
 
 /*BIOLOGIA*/
 .menlawtit {
-  background-color: rgb(0, 134, 76);
+  background-color: rgb(5, 110, 60);
   height: 90px;
 }
 .flecha3 {
@@ -69,16 +69,16 @@ background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
-background-color: rgb(0, 134, 76);
+background-color: rgb(5, 110, 60);
 }
 .biocongslink{
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
-background-color: rgb(0, 134, 76)
+background-color: rgb(5, 110, 60);
 }
 .bioquizlink:active, .biocongslink:active {
-background-color: rgb(0, 107, 61); /*multiplicar valores de rgb por 0,8*/
+background-color: rgb(4, 88, 48); /*multiplicar valores de rgb por 0,8*/
 }
 
 /*HISTORIA*/
