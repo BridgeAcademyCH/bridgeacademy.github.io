@@ -84,7 +84,7 @@ font-family: 'Tilt Neon';
 padding: 10px 15px;
 background-color: rgb(5, 110, 60);
 }
-.bioquizlink:link, .biocongslink:link {
+.bioquizlink:active, .biocongslink:active {
   background-color: rgb(4, 88, 48); /*multiplicar valores de rgb por 0,8*/
 }
 .bioquizlink:hover, .biocongslink:hover {
