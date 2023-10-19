@@ -2,32 +2,7 @@
   font-family: 'Tilt Neon';
   src: url('../img/fuente.ttf') format('truetype');
 }
-.registro {
-  font-size: 20px;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-}
-.registro:hover {
-  background-color: rgb(221, 144, 0);
-}
-.registro:active{
-  background-color: rgb(194, 126, 1);
-}
-.inicio {
-  font-size: 20px;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-}
-.inicio:hover {
-  background-color: rgb(221, 144, 0);
-}
-.inicio:active{
-  background-color: rgb(194, 126, 1);
-}
+
 .scinotit {
   background-color: rgb(255, 225, 161);
   height: 90px;
