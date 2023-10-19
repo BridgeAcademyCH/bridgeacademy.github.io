@@ -42,17 +42,19 @@ color-scheme:151, 204, 205 ;
 }
 .History{
     background-color: rgba(78, 197, 103);
-    height: 100px;
+    height: 60px;
     width: 100px;
     font-family: 'Tilt Neon', sans-serif;
+
 }
 .Chemistry{
     background-color: rgba(151, 204, 205);
-    height: 100px;
+    height: 60px;
     width: 100px;
     font-family: 'Tilt Neon', sans-serif;
+    margin: right 15px;
 }
 .Biology{background-color: rgba(0, 134, 76);
-    height: 100px;
+    height: 60px;
     width: 100px;
     font-family: 'Tilt Neon', sans-serif;}
