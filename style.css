@@ -28,11 +28,12 @@
 }
 .congrats2{
     font-family: 'Tilt Neon', sans-serif ;
-    font-size: 40px;
+    font-size: 30px;
 }
 .congrats3{
     color: rgba(255, 173, 0);
     font-family: 'Tilt Neon', sans-serif;
+    font-size: 25px;
 }
 
 .btn-groupt{
@@ -75,4 +76,10 @@ color-scheme:151, 204, 205 ;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
+}
+
+.imagendebotones{
+    width: 1000px;
+    height: 180px;
+
 }
