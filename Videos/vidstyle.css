@@ -57,6 +57,9 @@ background-color: rgb(151, 204, 205)
 .chequizlink:active, .checongslink:active {
 background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
 }
+.chequizlink:hover, .checongslink:hover {
+  background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
+}
 
 /*BIOLOGIA*/
 .menlawtit {
@@ -111,6 +114,9 @@ background-color: rgb(135,193,89);
 }
 .hisquizlink:active, .hiscongslink:active {
 background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
+}
+.hisquizlink:hover, .hiscongslink:hover {
+  background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
 }
 
 /*PERMA*/
