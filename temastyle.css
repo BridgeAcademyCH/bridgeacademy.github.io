@@ -22,6 +22,14 @@
     border-style: solid;
     border-color: black;
 }
+.chibutt{
+    background-color: rgb(78, 115, 194);
+    width: 433px;
+    height: 80px;
+    font-size: 50px;
+    border-style: solid;
+    border-color: black;
+}
 .nomen{
     background-color: rgb(151, 204, 205);
     width: 300px;
