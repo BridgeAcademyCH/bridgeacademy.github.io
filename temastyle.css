@@ -63,4 +63,16 @@ border-color: black;
     margin-bottom: 80px;
     border-style: solid;
     border-color: black;
+
+.notation{
+    background-color: rgb(151, 204, 205);
+    width: 250px;
+    height:  200px;
+    margin-left: 470px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: black;
+
+}
 }
