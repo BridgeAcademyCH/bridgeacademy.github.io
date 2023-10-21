@@ -52,7 +52,7 @@ color-scheme:151, 204, 205 ;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
-    left: 30%;
+
 
 }
 .Chemistry{
@@ -65,7 +65,6 @@ color-scheme:151, 204, 205 ;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
-    right: 30%;
 }
 
 .Biology{
@@ -78,7 +77,6 @@ color-scheme:151, 204, 205 ;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
-    right: 40%;
 }
 .Physics{
     background-color: rgba(255, 225, 161);
@@ -90,7 +88,6 @@ color-scheme:151, 204, 205 ;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
-    right: 50%;
     
 }
 .botones{
