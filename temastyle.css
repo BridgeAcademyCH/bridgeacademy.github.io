@@ -25,6 +25,8 @@
 }
 .chibutt{
     background-color: rgb(78, 115, 194);
+    width: 433px;
+    height: 80px;
     font-size: 50px;
     border-style: solid;
     border-color: black;
