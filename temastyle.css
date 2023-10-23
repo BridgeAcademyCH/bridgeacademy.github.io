@@ -63,7 +63,6 @@ border-color: black;
     display: inline-block;
 }
 
-
 .vectorio{
     background-color: rgb(151, 204, 205);
     width: 250px;
@@ -91,5 +90,35 @@ display: inline-block;
 }
 .ciencia{
 display: block;
+}
+.bio{
+font: size 70px;
+background-color: rgb(112, 224, 131);
+float: right;
+margin-left: 50px;
+margin-top: 30px;
+}
+.evolucion{
+    background-color: rgb(62, 228, 20);
+    width: 250px;
+    height:  100px;
+    margin-left: 300px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: black;
+    float: left;
+}
+.genetica{
+    background-color: rgb(63, 138, 44);
+    width: 250px;
+    height:  100px;
+    margin-left: 300px;
+    margin-top:80px;
+    margin-bottom: 80px;
+    border-style: solid;
+    border-color: black;
+    float: right;
+}
 }
 
