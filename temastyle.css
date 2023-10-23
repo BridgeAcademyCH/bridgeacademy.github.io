@@ -31,7 +31,7 @@
     border-style: solid;
     border-color: black;
 }
-.nomen{
+.nomo{
     background-color: rgb(38, 106, 231);
     width: 250px;
     height:  200px;
@@ -62,9 +62,7 @@ border-color: black;
 .table{
     display: inline-block;
 }
-.nomen{
-    display: inline-block;
-}
+
 
 .vectorio{
     background-color: rgb(151, 204, 205);
