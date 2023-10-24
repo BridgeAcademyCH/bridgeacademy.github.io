@@ -128,9 +128,6 @@ background-color: rgb(194, 126, 1);
           }
 
 /*CONTENIDO*/
-.brnav{
-  margin-top: 60px;
-}
 .textopresentativo {
     text-align: center;
 }
@@ -143,7 +140,7 @@ color: #8F8F8F;
 
 h3{
   font-family: 'Tilt Neon', sans-serif;
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .cardsM{
