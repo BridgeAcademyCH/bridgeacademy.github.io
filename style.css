@@ -26,7 +26,7 @@ nav {
   }
   .logout {
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 20px;
     width: 170px;
     height: 50px;
   }
@@ -38,8 +38,7 @@ nav {
   }
   .inicio {
     display: inline-block;
-    margin-left: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 170px;
     height: 50px;
   }
@@ -130,18 +129,18 @@ nav {
 
 /*CONTENIDO*/
 .congrats{
-    margin-left: 20px;
-    margin-top: 84px;
+    margin-left: 40px;
+    margin-top: 94px;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 50px;
 }
 .congrats2{
-    margin-left: 20px;
+    margin-left: 40px;
     font-family: 'Tilt Neon', sans-serif ;
     font-size: 30px;
 }
 .congrats3{
-    margin-left: 20px;
+    margin-left: 40px;
     color: rgba(255, 173, 0);
     font-family: 'Tilt Neon', sans-serif;
     font-size: 25px;
