@@ -94,12 +94,13 @@ color-scheme:151, 204, 205 ;
 .physic1{ margin-left: 125px;
     margin-right: 130px;
     width: 174px;
-;
+height: auto;
 }
 
 .biology1{ margin-left: 125px;
     margin-right: 130px;
     width: 174px;
+    height: auto;
     
 
 }
@@ -107,8 +108,10 @@ color-scheme:151, 204, 205 ;
 .chemistry1{ margin-left: 1px;
     margin-right: 15px;
     width: 174px;
+    height: auto;
 
 }
 
 .history1{  margin-right: 145px;
-    width: 174px;}
+    width: 174px;
+height: auto;}
