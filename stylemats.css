@@ -143,11 +143,12 @@ color: #8F8F8F;
 
 h3{
   font-family: 'Tilt Neon', sans-serif;
+  font-size: 30px;
 }
 
 .cardsM{
   display: grid;
- grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   text-align: center;
 }
 
