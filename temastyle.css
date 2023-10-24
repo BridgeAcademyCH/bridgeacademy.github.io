@@ -5,6 +5,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .histbutt{
     background-color: rgb(135,193,89);
@@ -13,6 +14,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .biobutt{
     background-color: rgb(5, 110, 60);
@@ -21,6 +23,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .chibutt{
@@ -30,6 +33,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nomo{
     background-color: rgb(151, 204, 205);
