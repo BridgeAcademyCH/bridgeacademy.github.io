@@ -1,0 +1,205 @@
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url('img/fuente.ttf') format('truetype');
+  }
+
+.imagenportada2 {
+    width: 100%;
+    margin-top: 60px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+    user-select: none;
+    border-bottom: 4px solid #e8e8ee;
+}
+
+.logobridge {
+    vertical-align: middle;
+    justify-content: left;
+    align-items: left;
+    height: 50px; 
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.registro,
+.inicio,
+.logout {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: orange;
+    transition: background-color 0.3s;
+}
+
+.registro:hover,
+.inicio:hover,
+.logout:hover {
+    background-color: rgb(221, 144, 0);
+}
+
+.registro:active,
+.inicio:active,
+.logout:active {
+    background-color: rgb(194, 126, 1);
+}
+
+.somos {
+    margin-top: 1px;
+}
+
+.titulo1 {
+    margin-top: 30px;
+    margin-left: 280px;
+    font-size: 105px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.titulo2 {
+    border-bottom: 7px solid orange;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.unapersona {
+    width: 50%;
+    height: 100%;
+    margin-left: 130px;
+}
+
+.info1 {
+    margin-left: 950px;
+    font-size: 45px;
+    margin-top: -350px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.subrayado {
+    border-bottom: 7px solid orange;
+    width: 1%;
+}
+
+.aprender {
+    margin-left: 30px;
+    font-size: 80px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.incrementa {
+    margin-left: 40px;
+    font-size: 35px;
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.calculadora {
+    margin-left: 800px;
+    margin-top: -400px;
+    height: 500px;
+}
+
+.startnow {
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-top: -200;
+    width: 400px;
+    height: 70px;
+    font-size: 40px;
+    color: white;
+    border: none;
+    background-color: orange;
+    transition: background-color 0.3s;
+}
+
+.startnow:hover {
+    background-color: rgb(221, 144, 0);
+}
+
+.startnow:active {
+    background-color: rgb(194, 126, 1);
+}
+
+.piedepagina {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+  }
+  
+  footer {
+    background-color: rgb(255, 173, 0);
+    color: #fff;
+    padding: 30px 200px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .leftfoot {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 25px;
+  }
+  
+  .footer-logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .company-name {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 15px;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .missionsub {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .contact-info {
+    text-align: left;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .sub {
+    margin-top: -25px;
+    font-size: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+  }
+  
+  .tit {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Tilt Neon', sans-serif;
+  }
