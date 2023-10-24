@@ -110,9 +110,9 @@ margin-top: 40px;
 }
 .evo{
     background-color: rgb(62, 228, 20);
-    width: 250px;
-    height:  100px;
-    margin-left: 300px;
+    width: 400px;
+    height: 300px;
+    margin-left: 200px;
     margin-top:80px;
     margin-bottom: 80px;
     border-style: solid;
@@ -122,9 +122,9 @@ margin-top: 40px;
 }
 .gen{
     background-color: rgb(63, 138, 44);
-    width: 250px;
-    height:  100px;
-    margin-left: 300px;
+    width: 400px;
+    height: 300px;
+    margin-left: 100px;
     margin-top:80px;
     margin-bottom: 80px;
     border-style: solid;
