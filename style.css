@@ -225,11 +225,12 @@ nav {
 }
 
 /*FOOTER*/
+
 li {
     list-style-type: none;
 }
 
-  footer {
+footer {
     background-color: rgb(255, 173, 0);
     color: #fff;
     padding: 20px 200px 20px 30px;
