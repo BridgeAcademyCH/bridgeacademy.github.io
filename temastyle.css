@@ -63,8 +63,10 @@
 .phystit {
     background-color: rgb(255, 225, 161);
     height: 90px;
+}
+.phystit p{
     font-family: 'Tilt Neon';
-    font-size: 100px;
+    font-size: 65px;
     margin-left: 20px;
 }
 
@@ -72,11 +74,12 @@
     background-color: rgb(255, 225, 161);
     width: 400px;
     height: 300px;
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top:70px;
     border-style: solid;
     border-color: rgb(204, 180, 128);
     font-family: 'Tilt Neon', sans-serif;
+    font-size: 50px;
 }
 
 .scinot{
@@ -84,8 +87,8 @@
     width: 400px;
     height: 300px;
     align-items: end;
-    margin-right: 50px;
-    margin-top:70px;
+    margin-right: 60px;
+    margin-top: 70px;
     border-style: solid;
     border-color: rgb(204, 180, 128);
     font-family: 'Tilt Neon', sans-serif;
