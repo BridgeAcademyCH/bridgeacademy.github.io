@@ -131,10 +131,60 @@ margin-top: 40px;
     border-color: black;
     float: right;
 }
+     .world{
+    background-color: yellow;
+    width:400px;
+    height: 300px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    margin-left: 300px;
+    border-style: solid;
+    border-color: black;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .cold{
+    background-color: rgb(124, 157, 219);
+    width: 400px;
+    height:300px ;
+    margin-top:80px ;
+    margin-bottom:60px ;
+    margin-left: 80px;
+    border-style: solid;
+    border-color: black;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+}
 .evolucion{
 display: block;
 }
 .genetica{
 display: block;
 }
-
+.oneword{
+    background-color: rgb(162, 185, 29);
+    width: 400px;
+    height:300px ;
+    margin-top:80px ;
+    margin-bottom:80px ;
+    margin-right: 60px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: black;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+.seconword{
+    background-color: rgb(147, 160, 73);
+    width: 400px;
+    height:300px ;
+    margin-top:80px ;
+    margin-bottom:60px ;
+    margin-left: 80px;
+    border-style: solid;
+    border-color: black;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}  
