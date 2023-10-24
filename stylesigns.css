@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Tilt Neon';
+    src: url('img/fuente.ttf') format('truetype');
+}
+
+.logobridge {
+    height: 25%; 
+    width: 30%;
+    margin-top: 5%;
+
+}
+
+.padre {
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.box2 {
+    width: 30%;
+    height: 57%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(196, 196, 196);
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+}
+.box {
+    width: 30%;
+    height: 52%;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(196, 196, 196);
+    box-sizing: border-box;
+    border-radius: 7px;
+    display: flex;
+}
+
+.tittle {
+    font-size: 40px;
+    font-family: 'Tilt Neon', sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.subject {
+    font-size: 20px;
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(148, 148, 148);
+    text-align: left;
+    margin-left: 30px;
+    margin-top: auto;
+}
+
+input {
+    margin-right: 10%;
+    border: none;
+    border-bottom: 2px solid orange;
+    outline: none;
+    width: 70%;
+    padding: 5px 0;
+    color: rgb(148, 148, 148);
+}
+
+input::placeholder {
+    color: rgb(148, 148, 148);
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 15px;
+}
+
+.other {
+    text-align: left;
+    margin-left: 45px;
+    font-family: 'Tilt Neon', sans-serif;
+    color: rgb(148, 148, 148);
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Tilt Neon', sans-serif;
+    color: orange;
+}
+
+.sign {
+    width: 40%;
+    height: 15%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: orange;
+    margin-left: 80%;
+    transition: background-color 0.3s;
+}
+
+.sign:hover {
+    background-color: rgb(221, 144, 0);
+}
+
+.sign:active {
+    background-color: rgb(194, 126, 1);
+}
+.createacc {
+    width: 50%;
+    height: 15%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: orange;
+    margin-left: 86%;
+    transition: background-color 0.3s;
+}
+.createacc:hover {
+    background-color: rgb(221, 144, 0);
+}
+.createacc:active {
+    background-color: rgb(194, 126, 1);
+}
+
