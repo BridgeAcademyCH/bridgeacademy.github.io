@@ -7,8 +7,7 @@
     height: 25%; 
     width: 30%;
     margin-top: 5%;
-
-}
+}       
 
 .padre {
     height: 100vh;
@@ -27,7 +26,7 @@
 }
 .box {
     width: 30%;
-    height: 52%;
+    height: 54%;
     background-color: rgb(255, 255, 255);
     border: 3px solid rgb(196, 196, 196);
     box-sizing: border-box;
@@ -73,7 +72,9 @@ input::placeholder {
 
 .other {
     text-align: left;
-    margin-left: 45px;
+    margin-left: 10%;
+    margin-bottom: 25px;
+    margin-top: 25px;
     font-family: 'Tilt Neon', sans-serif;
     color: rgb(148, 148, 148);
     font-size: 18px;
@@ -86,15 +87,19 @@ a {
 }
 
 .sign {
-    width: 40%;
+    font-family: 'Tilt Neon', sans-serif;
+    width: 50%;
     height: 15%;
     font-size: 20px;
     color: white;
     border: none;
     background-color: orange;
-    margin-left: 80%;
+    margin-left: 229px;
+    margin-top: -60px;
+    margin-bottom: 20;
     transition: background-color 0.3s;
 }
+
 
 .sign:hover {
     background-color: rgb(221, 144, 0);
@@ -104,13 +109,15 @@ a {
     background-color: rgb(194, 126, 1);
 }
 .createacc {
+    font-family: 'Tilt Neon', sans-serif;
     width: 50%;
     height: 15%;
     font-size: 20px;
     color: white;
     border: none;
     background-color: orange;
-    margin-left: 86%;
+    margin-left: 226px;
+    margin-top: -10px;
     transition: background-color 0.3s;
 }
 .createacc:hover {
@@ -119,4 +126,3 @@ a {
 .createacc:active {
     background-color: rgb(194, 126, 1);
 }
-

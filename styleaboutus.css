@@ -30,7 +30,6 @@ nav {
 }
 
 .registro,
-.inicio,
 .logout {
     display: inline-block;
     font-family: 'Tilt Neon', sans-serif;
@@ -45,8 +44,18 @@ nav {
 }
 
 .inicio{
+  display: inline-block;
+  font-family: 'Tilt Neon', sans-serif;
   margin-right: 10px;
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
 }
+
 
 .registro:hover,
 .inicio:hover,
@@ -83,7 +92,7 @@ nav {
 }
 
 .info1 {
-    margin-left: 795px;
+    margin-left: 787px;
     font-size: 45px;
     margin-top: -350px;
     font-family: 'Tilt Neon', sans-serif;
