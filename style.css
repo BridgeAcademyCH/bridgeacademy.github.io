@@ -4,7 +4,6 @@
 }
 
 /*Nav*/
-/*Nav*/
 nav {
     position: fixed;
     top: 0;
@@ -40,6 +39,7 @@ nav {
   .inicio {
     display: inline-block;
     margin-left: 5px;
+    margin-right: 10px;
     width: 170px;
     height: 50px;
   }
@@ -130,15 +130,18 @@ nav {
 
 /*CONTENIDO*/
 .congrats{
+    margin-left: 20px;
     margin-top: 84px;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 50px;
 }
 .congrats2{
+    margin-left: 20px;
     font-family: 'Tilt Neon', sans-serif ;
     font-size: 30px;
 }
 .congrats3{
+    margin-left: 20px;
     color: rgba(255, 173, 0);
     font-family: 'Tilt Neon', sans-serif;
     font-size: 25px;
