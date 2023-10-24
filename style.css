@@ -39,6 +39,7 @@ nav {
   .inicio {
     display: inline-block;
     margin-left: 5px;
+    margin-right: 5px;
     width: 170px;
     height: 50px;
   }
@@ -129,6 +130,7 @@ nav {
 
 /*CONTENIDO*/
 .congrats{
+    margin-top: 74px;
     font-family: 'Tilt Neon', sans-serif;
     font-size: 50px;
 }
@@ -174,7 +176,7 @@ nav {
 
 .Biology{
     background-color: rgba(0, 134, 76);
-    margin-left: 125px;
+    margin-left: 110px;
     margin-right: 130px;
     height: 62px;
     width: 174px;
@@ -197,23 +199,27 @@ nav {
 
 .physic1{ margin-left: 125px;
     margin-right: 130px;
+    margin-top: 10px;
     width: 174px;
     height: auto;
 }
 
-.biology1{ margin-left: 125px;
+.biology1{ margin-left: 110px;
     margin-right: 130px;
+    margin-top: 10px;
     width: 174px;
     height: auto;
 }
 
 .chemistry1{ margin-left: 1px;
     margin-right: 15px;
+    margin-top: 10px;
     width: 174px;
     height: auto;
 }
 
 .history1{  margin-right: 145px;
+    margin-top: 10px;
     width: 174px;
     height: auto;
 }
