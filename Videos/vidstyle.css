@@ -24,7 +24,7 @@ background-color: rgb(255, 225, 161);
 font-size: 20px;
 font-family: 'Tilt Neon';
 padding: 10px 15px;
-background-color: rgb(255, 225, 161)
+background-color: rgb(255, 225, 161);
 }
 .fiquizlink:active, .ficongslink:active {
 background-color: rgb(204, 180, 128); /*multiplicar valores de rgb por 0,8*/
