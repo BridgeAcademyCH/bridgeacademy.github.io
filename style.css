@@ -115,3 +115,9 @@ height: auto;
 .history1{  margin-right: 145px;
     width: 174px;
 height: auto;}
+
+.divisote{display: grid;
+    grid-template-columns: auto auto auto auto;
+     text-align: center;
+
+}
