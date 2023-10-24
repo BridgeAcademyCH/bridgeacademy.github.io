@@ -17,7 +17,7 @@
   user-select: none;
 }
 
-.logobridge {
+.logobridge { 
     display: flex;
     justify-content: left;
     align-items: left;
@@ -90,7 +90,7 @@ h3{
         background-color: #FEE3A2; 
         margin-right: 50px;
         margin-left: 70px;
-       
+        text-align: center;
     }
 
       .imagen {
@@ -103,8 +103,7 @@ h3{
     height: 250px; 
       background-color: #ADCACB; 
     margin-right: 50px;
-  
-   
+    text-align: center;
   }
   .imagen2 {
     width: 95%; 
@@ -117,7 +116,7 @@ h3{
     height: 250px; 
     background-color: #87C159; 
     margin-right: 50px;
-   
+    text-align: center;
   }
   .imagen3{
     width: 95%; 
@@ -129,8 +128,7 @@ h3{
     height: 250px; 
     background-color: #056E3C; 
     margin-right: 50px;
-    
-   
+    text-align: center;
   }
   .imagen4{
     width: 95%; 
