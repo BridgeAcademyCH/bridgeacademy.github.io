@@ -10,7 +10,7 @@
     text-align: center;
 }
 
-.btn-gropu{
+.btn-group{
     margin-top: 74px;
 }
 
@@ -18,10 +18,10 @@
     background-color: rgb(255, 225, 161);
     width: 360px;
     height: 80px;
-    font-size: 50px;
+    font-size: 65px;
     border-style: solid;
     border-color: rgb(204, 180, 128);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
 .physbutt:hover, .scinot:hover, .vectors:hover {
     background-color: rgb(204, 180, 128); 
@@ -37,7 +37,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: rgb(108, 154, 71);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
 .biobutt{
     background-color: rgb(5, 110, 60);
@@ -46,7 +46,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: rgb(4, 88, 48);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 
 }
 .chibutt{
@@ -56,7 +56,7 @@
     font-size: 50px;
     border-style: solid;
     border-color: rgb(120, 163, 164);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 /*FISICA*/
@@ -70,21 +70,22 @@
     background-color: rgb(255, 225, 161);
     width: 400px;
     height: 300px;
-    margin-right: 25%;
+    margin-left: 50px;
     margin-top:70px;
     border-style: solid;
     border-color: rgb(204, 180, 128);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
 }
 
 .scinot{
     background-color: rgb(255, 225, 161);
     width: 400px;
     height: 300px;
-    margin-left: 25%;
+    align-items: end;
+    margin-right: 50px;
     margin-top:70px;
     border-color: rgb(204, 180, 128);
-    font-family: 'Tilt Neon' sans-serif;
+    font-family: 'Tilt Neon', sans-serif;
     font-size: 50px;
 }
 .vectorio{
