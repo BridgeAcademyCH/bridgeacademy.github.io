@@ -26,7 +26,7 @@ nav {
   }
   .logout {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 5px;
     width: 170px;
     height: 50px;
   }
@@ -245,6 +245,8 @@ li {
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    border: none;
+    margin: 0;
   }
   
   .leftfoot {
