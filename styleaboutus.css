@@ -34,6 +34,7 @@ nav {
 .logout {
     display: inline-block;
     font-family: 'Tilt Neon', sans-serif;
+    margin-right: 5px;
     width: 170px;
     height: 50px;
     font-size: 20px;
@@ -41,6 +42,10 @@ nav {
     border: none;
     background-color: orange;
     transition: background-color 0.3s;
+}
+
+.inicio{
+  margin-right: 10px;
 }
 
 .registro:hover,
