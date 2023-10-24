@@ -10,15 +10,21 @@
     <title> Bridge Academy </title>
 </head>
 <body>
+  <nav>
+    <div style="display: grid; grid-template-columns: auto auto;">
+           <img src="../img/logobridge.png" alt="logobridge" class="logobridge">
+           <div class="btns" style="text-align: right;">
+               <button class="logout" onclick="window.location.href='../BA.html'"> <u>Log Out</u></button>
+               <button class="registro" onclick="window.location.href='../materias.html'"><u> Lessons</u></button>
+               <button class="inicio" onclick="window.location.href='../aboutus.html'"><u>About us</u></button>
+           </div>
+       </div>
+</nav>
     <h1 class="congrats"> Congratulations 🎉
     <h2 class="congrats2">You have completed the lesson.</h2> <br>
     <br>
     <h3 class="congrats3">Challenge yourself and learn with <br> our other lessons:</h3> 
     <br>
-    <input type="button" class="Biology" value="Biology">
-    <input type="button" class="History" value="History">
-    <input type="button" class="Chemistry" value="Chemistry">
-    <input type="button" class="Physics" value="Physics">
     <br>
     <div class="divisote">
     <div class="biologi">
@@ -45,11 +51,34 @@
     <br>
     <br>
     <br>
-    <img src="img/physics.png" class="physics">
     <br>
     <br>
-     <footer>
-        <img src="img/piedepagina.png">
-     </footer> 
+    <footer>
+      <div class="leftfoot">
+      <div class="footer-logo">
+          <img src="logofooter.png" alt="Bridge Academy">
+          <p class="company-name">Bridge Academy</p>
+      </div>
+          <div class="missionsub">
+          <li>Our mission is to complement traditional education <br> in a dynamic way, for anyone, at any time</li> <br>
+          <li>© 2023 Bridge Academy Company <br> All rights reserved</li>
+          </div>
+      </div>
+      </div>
+      <div class="contact-info">
+          <div class="address">
+              <p class="tit">Address</p>
+              <p class="sub">¡Supérate! Center, Alberto Motta Trust, <br> V67G+343, La Chorrera</p>
+          </div>
+          <div class="phone">
+              <p class="tit">Phone</p>
+              <p class="sub">612 345 678</p>
+          </div>
+          <div class="email">
+              <p class="tit">Email</p>
+              <p class="sub">Bridgeacademy@gmail.com</p>
+          </div>
+      </div>
+  </footer>
 </body>
 </html>

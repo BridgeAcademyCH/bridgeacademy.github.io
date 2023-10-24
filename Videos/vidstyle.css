@@ -63,7 +63,7 @@ background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
 
 /*BIOLOGIA*/
 .menlawtit {
-  margin-top: 70px;
+  margin-top: 90px;
   background-color: rgb(5, 110, 60);
   height: 90px;
 }
@@ -279,3 +279,77 @@ background-color: rgb(194, 126, 1);
           .logout:active{
           background-color: rgb(194, 126, 1);
           }
+
+/*FOOTER*/
+li {
+  list-style-type: none;
+}
+
+footer {
+  background-color: rgb(255, 173, 0);
+  color: #fff;
+  padding: 20px 200px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.leftfoot {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+.footer-logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.missionsub {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.contact-info {
+  text-align: left;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.sub {
+  margin-top: -25px;
+  font-size: 20px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.tit {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Tilt Neon', sans-serif;
+}
