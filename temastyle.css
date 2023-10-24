@@ -64,6 +64,8 @@
     background-color: rgb(255, 225, 161);
     height: 90px;
     font-family: 'Tilt Neon';
+    font-size: 100px;
+    margin-left: 20px;
 }
 
 .vectors{
@@ -84,6 +86,7 @@
     align-items: end;
     margin-right: 50px;
     margin-top:70px;
+    border-style: solid;
     border-color: rgb(204, 180, 128);
     font-family: 'Tilt Neon', sans-serif;
     font-size: 50px;
