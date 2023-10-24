@@ -3,6 +3,131 @@
   src: url('img/fuente.ttf') format('truetype');
 }
 
+/*NAV*/
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  user-select: none;
+  border-bottom: 4px solid #e8e8ee;
+  z-index: 1;
+}
+.logobridge {
+  vertical-align: middle;
+  justify-content: left;
+  align-items: left;
+  height: 50px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logout {
+  display: inline-block;
+  margin-right: 5px;
+  width: 170px;
+  height: 50px;
+}
+.registro {
+  display: inline-block;
+  margin-right: 5px;
+  width: 170px;
+  height: 50px;
+}
+.inicio {
+  display: inline-block;
+  margin-right: 30px;
+  width: 170px;
+  height: 50px;
+}
+.registro {
+font-size: 20px;
+font-family: 'Tilt Neon';
+color: white;
+border: none;
+background-color: orange;
+transition: background-color 0.3s;
+}
+.registro:hover {
+background-color: rgb(221, 144, 0);
+}
+.registro:active{
+background-color: rgb(194, 126, 1);
+}
+
+.inicio {
+font-size: 20px;
+font-family: 'Tilt Neon';
+color: white;
+border: none;
+background-color: orange;
+transition: background-color 0.3s;
+}
+.inicio:hover {
+background-color: rgb(221, 144, 0);
+}
+.inicio:active{
+background-color: rgb(194, 126, 1);
+}
+.logout {
+    font-size: 20px;
+    font-family: 'Tilt Neon';
+    color: white;
+    border: none;
+    background-color: orange;
+    transition: background-color 0.3s;
+    }
+    .logout:hover {
+    background-color: rgb(221, 144, 0);
+    }
+    .logout:active{
+    background-color: rgb(194, 126, 1);
+    }
+    .registro {
+      font-size: 20px;
+      font-family: 'Tilt Neon';
+      color: white;
+      border: none;
+      background-color: orange;
+      transition: background-color 0.3s;
+      }
+      .registro:hover {
+      background-color: rgb(221, 144, 0);
+      }
+      .registro:active{
+      background-color: rgb(194, 126, 1);
+      }
+      .inicio {
+      font-size: 20px;
+      font-family: 'Tilt Neon';
+      color: white;
+      border: none;
+      background-color: orange;
+      transition: background-color 0.3s;
+      }
+      .inicio:hover {
+      background-color: rgb(221, 144, 0);
+      }
+      .inicio:active{
+      background-color: rgb(194, 126, 1);
+      }
+      .logout {
+          font-size: 20px;
+          color: white;
+          border: none;
+          background-color: orange;
+          transition: background-color 0.3s;
+          }
+          .logout:hover {
+          background-color: rgb(221, 144, 0);
+          }
+          .logout:active{
+          background-color: rgb(194, 126, 1);
+          }
+
+/*CONTENIDO*/
 .textopresentativo {
     text-align: center;
 }
@@ -31,7 +156,6 @@
     margin-right: 700px;
     vertical-align: middle;
    
-    
 }
 .home {
     display: inline-block;
@@ -73,7 +197,6 @@ color: #8F8F8F;
 h3{
   font-family: 'Tilt Neon', sans-serif;
 }
-
 
 .cardsM{
   display: grid;
@@ -134,3 +257,78 @@ h3{
     width: 95%; 
     height: 95%;   
   }
+
+/*FOOTER*/
+li {
+  list-style-type: none;
+}
+
+footer {
+  border-color:rgb(255, 173, 0) ;
+  background-color: rgb(255, 173, 0);
+  color: #fff;
+  padding: 30px 200px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.leftfoot {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: flex-start;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 25px;
+}
+
+.footer-logo img {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.company-name {
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.missionsub {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 35px;
+  margin-bottom: 20px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.contact-info {
+  text-align: left;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.sub {
+  margin-top: -25px;
+  font-size: 20px;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.tit {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Tilt Neon', sans-serif;
+}

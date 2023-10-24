@@ -10,12 +10,16 @@
         <link rel="shorcut icon" href="img/Logo.png" type="image/x-icon">
     </head>
     <body>
-       <nav>
-            <img src="img/logobridge.png" alt="logobridge" class="logobridge">
-            <button src="singup.png" alt="Home" class="home" onclick="window.location.href='registro2.html'">Home</button>
-            <button src="singin.png" alt="Salir" class="salir" onclick="window.location.href='iniciodesesion.html'">Log out <output></output></button>
-            <hr>
-       </nav>
+        <nav>
+            <div style="display: grid; grid-template-columns: auto auto;">
+                   <img src="img/logobridge.png" alt="logobridge" class="logobridge">
+                   <div class="btns" style="text-align: right;">
+                       <button class="logout" onclick="window.location.href='BA.html'"> <u>Log Out</u></button>
+                       <button class="registro" onclick="window.location.href='materias.html'"><u> Lessons</u></button>
+                       <button class="inicio" onclick="window.location.href='aboutus.html'"><u>About us</u></button>
+                   </div>
+               </div>
+               </nav>
        <br>
         <br>
         <br>
@@ -57,8 +61,31 @@
         <br>
         <br>
         <br>
- <footer>
-    <img src="img/piedepagina.png" alt="footer">
-</footer>
+        <footer>
+            <div class="leftfoot">
+            <div class="footer-logo">
+                <img src="img/logofooter.png" alt="Bridge Academy">
+                <p class="company-name">Bridge Academy</p>
+            </div>
+                <div class="missionsub">
+                <li>Our mission is to complement traditional education <br> in a dynamic way, for anyone, at any time</li> <br>
+                <li>© 2023 Bridge Academy Company <br> All rights reserved</li>
+                </div>
+            </div>
+            <div class="contact-info">
+                <div class="address">
+                    <p class="tit">Address</p>
+                    <p class="sub">¡Supérate! Center, Alberto Motta Trust, <br> V67G+343, La Chorrera</p>
+                </div>
+                <div class="phone">
+                    <p class="tit">Phone</p>
+                    <p class="sub">612 345 678</p>
+                </div>
+                <div class="email">
+                    <p class="tit">Email</p>
+                    <p class="sub">Bridgeacademy@gmail.com</p>
+                </div>
+            </div>
+        </footer>
     </body> 
 </html>
