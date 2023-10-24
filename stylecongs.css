@@ -178,7 +178,6 @@ nav {
 
 .Biology{
     background-color: rgba(0, 134, 76);
-    margin-left: 55px;
     margin-right: 130px;
     height: 62px;
     width: 174px;
@@ -204,7 +203,7 @@ nav {
     height: auto;
 }
 
-.biology1{ margin-left: 55px;
+.biology1{
     margin-right: 130px;
     margin-top: 20px;
     width: 174px;
@@ -236,6 +235,7 @@ li {
   }
   
   footer {
+    border-color:rgb(255, 173, 0) ;
     background-color: rgb(255, 173, 0);
     color: #fff;
     padding: 30px 200px 20px 30px;
@@ -243,8 +243,6 @@ li {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    border: none;
-    margin: 0;
   }
   
   .leftfoot {
