@@ -65,9 +65,12 @@
     height: 90px;
 }
 .phystit h3{
+    padding: 5px;
+    text-align: center;
     font-family: 'Tilt Neon';
     font-size: 65px;
-    margin-left: 20px;
+    margin-left: 30px;
+
 }
 
 .vectors{
