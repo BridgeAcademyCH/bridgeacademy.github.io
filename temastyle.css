@@ -40,11 +40,11 @@
   border-color: rgb(108, 154, 71);
   font-family: 'Tilt Neon', sans-serif;
 }
-.hisbutt:hover, .ww1:hover, .ww2:hover {
+.histbutt:hover, .ww1:hover, .ww2:hover {
   background-color: rgb(108, 154, 71);
   border-color: rgb(94, 135, 62);
 }
-.hisbutt:active, .ww1:active, .ww2:active {
+.histbutt:active, .ww1:active, .ww2:active {
   background-color: rgb(94, 135, 62);
   border-color: rgb(81, 115, 53);
 }
@@ -171,7 +171,7 @@
 
 /*HISTORIA*/
 .histit {
-  background-color: rgb(151, 204, 205);
+  background-color: rgb(135,193,89);
   height: 90px;
 }
 .histit h3{
@@ -212,7 +212,7 @@
 
 /*BIOLOGIA*/
 .biotit {
-  background-color: rgb(151, 204, 205);
+  background-color: rgb(5, 110, 60);
   height: 90px;
 }
 .biotit h3{
