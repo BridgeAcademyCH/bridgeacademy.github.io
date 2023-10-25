@@ -38,6 +38,7 @@
   border-color: rgb(108, 154, 71);
   font-family: 'Tilt Neon', sans-serif;
 }
+
 .biobutt{
   background-color: rgb(5, 110, 60);
   width: 456px;
@@ -46,9 +47,9 @@
   border-style: solid;
   border-color: rgb(4, 88, 48);
   font-family: 'Tilt Neon', sans-serif;
-
 }
-.chibutt{
+
+.chebutt{
   background-color: rgb(151, 204, 205);
   width: 455px;
   height: 80px;
@@ -57,6 +58,13 @@
   border-color: rgb(120, 163, 164);
   font-family: 'Tilt Neon', sans-serif;
 }
+.chebutt:hover, .nomen:hover, .stoich:hover {
+  background-color: rgb(120, 163, 164); 
+}
+.chebutt:active, .nomen:active, .stoich:active {
+  background-color: rgb(105, 142, 143); 
+}
+
 
 /*FISICA*/
 .phystit {
@@ -101,133 +109,44 @@
 
 /*QUIMICA*/
 
-.nomo{
+.chetit {
   background-color: rgb(151, 204, 205);
-  width: 400px;
-  height: 300px;
-  margin-left: 200px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
-border-style:solid ;
-border-color: black;   
-
+  height: 90px;
 }
-.table{
-  background-color: rgb(151, 204, 205);
-  width: 400px;
-  height:  300px;
-  margin-top:80px;
-  margin-bottom: 80px;
-  margin-right: 200px; 
-  border-style: solid;
-  border-color: black;
-  font-size: 50px;
-  }  
-.chemtit{
-  float: left;
-  font-size: 50px;
-  margin-left: 50px;
-  margin-top: 30px;
-}
-.table{
-  display: inline-block;
+.chetit h3{
+  padding: 5px;
+  font-family: 'Tilt Neon';
+  font-size: 65px;
+  margin-left: 70px;
+  color: black;
 }
 
-
-.bio{
-font: size 70px;
-background-color: rgb(112, 224, 131);
-float: left;
-margin-left: 60px;
-margin-top: 40px;
-}
-.evo{
-  background-color: rgb(147, 160, 73);
-  width: 500px;
-  height:300px ;
-  margin-top:80px ;
-  margin-bottom:70px ;
-  margin-left: 80px;
-  margin-right: 60px;
-  border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif; 
-  text-align: center; 
-
-}
-.gen{
-  background-color: rgb(34, 179, 46);
-  width: 500px;
-  height:300px ;
-  margin-top:80px ;
-  margin-bottom:60px ;
-  margin-left: 80px;
-  margin-right: 60px;
-  border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-   .world{
-  background-color: yellow;
-  width:500px;
-  height: 300px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-left: 300px;
-  border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .cold{
-  background-color: rgb(124, 157, 219);
-  width: 500px;
-  height:300px ;
-  margin-top:80px ;
-  margin-bottom:60px ;
-  margin-left: 80px;
-  border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
-
-}
-.evolucion{
-display: block;
-}
-.genetica{
-display: block;
-}
-.oneword{
-  background-color: rgb(162, 185, 29);
-  width: 400px;
-  height:300px ;
-  margin-top:80px ;
-  margin-bottom:80px ;
-  margin-right: 60px;
+.nomen{
+  float: left ;
   margin-left: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: rgb(151, 204, 205);
+  width: 500px;
+  height: 200px;
   border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
- }
-.seconword{
-  background-color: rgb(147, 160, 73);
-  width: 400px;
-  height:300px ;
-  margin-top:80px ;
-  margin-bottom:60px ;
-  margin-left: 80px;
+  border-color: rgb(120, 163, 164);
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 50px;
+}
+
+.stoich{
+  float: right ;
+  margin-right: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: rgb(151, 204, 205);
+  width: 500px;
+  height: 200px;
   border-style: solid;
-  border-color: black;
-  font-size: 60px;
-  font-family: Arial, Helvetica, sans-serif;
+  border-color: rgb(120, 163, 164);
+  font-family: 'Tilt Neon', sans-serif;
+  font-size: 50px;
 }
 
 /*NAV*/
