@@ -3,6 +3,11 @@
     src: url('img/fuente.ttf') format('truetype');
 }
 
+body{
+  background-image: url(img/congrats.gif);
+  background-size: cover;
+}
+
 /*Nav*/
 nav {
     position: fixed;
