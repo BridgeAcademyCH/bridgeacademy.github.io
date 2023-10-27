@@ -159,7 +159,7 @@ font-family: 'Quicksand', sans-serif;
 font-size: 25px; 
 }
 
-/*Nav*/
+/*NAV*/
 nav {
   position: fixed;
   top: 0;
@@ -194,7 +194,7 @@ nav {
 }
 .inicio {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 30px;
   width: 170px;
   height: 50px;
 }
@@ -230,62 +230,21 @@ background-color: rgb(221, 144, 0);
 background-color: rgb(194, 126, 1);
 }
 .logout {
-    font-size: 20px;
-    font-family: 'Quicksand';
-    font-weight: bold;
-    color: white;
-    border: none;
-    background-color: orange;
-    transition: background-color 0.3s;
-    }
-    .logout:hover {
-    background-color: rgb(221, 144, 0);
-    }
-    .logout:active{
-    background-color: rgb(194, 126, 1);
-    }
-    .registro {
-      font-size: 20px;
-      font-family: 'Quicksand';
-      color: white;
-      border: none;
-      background-color: orange;
-      transition: background-color 0.3s;
-      }
-      .registro:hover {
-      background-color: rgb(221, 144, 0);
-      }
-      .registro:active{
-      background-color: rgb(194, 126, 1);
-      }
-      .inicio {
-      font-size: 20px;
-      font-family: 'Quicksand';
-      color: white;
-      border: none;
-      background-color: orange;
-      transition: background-color 0.3s;
-      }
-      .inicio:hover {
-      background-color: rgb(221, 144, 0);
-      }
-      .inicio:active{
-      background-color: rgb(194, 126, 1);
-      }
-      .logout {
-          font-size: 20px;
-          color: white;
-          border: none;
-          background-color: orange;
-          transition: background-color 0.3s;
-          }
-          .logout:hover {
-          background-color: rgb(221, 144, 0);
-          }
-          .logout:active{
-          background-color: rgb(194, 126, 1);
-          }
-
+  font-size: 20px;
+  font-family: 'Quicksand';
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+  }
+  .logout:hover {
+  background-color: rgb(221, 144, 0);
+  }
+  .logout:active{
+  background-color: rgb(194, 126, 1);
+  }
+  
 /*FOOTER*/
 li {
   list-style-type: none;
