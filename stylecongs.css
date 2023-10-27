@@ -138,17 +138,20 @@ nav {
     margin-top: 94px;
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
+    text-align: center;
 }
 .congrats2{
     margin-left: 40px;
     font-family: 'Quicksand', sans-serif ;
     font-size: 30px;
+    text-align: center;
 }
 .congrats3{
     margin-left: 40px;
     color: rgba(255, 173, 0);
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
+    text-align: center;
 }
 
 .btn-groupt{
@@ -311,4 +314,13 @@ li {
     font-weight: bold;
     font-size: 25px;
     font-family: 'Quicksand', sans-serif;
+  }
+  
+  #video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
   }
