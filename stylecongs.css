@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Tilt Neon';
+    font-family: 'Quicksand';
     src: url('img/fuente.ttf') format('truetype');
 }
 
@@ -44,7 +44,7 @@ nav {
   }
   .registro {
   font-size: 20px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   color: white;
   border: none;
   background-color: orange;
@@ -59,7 +59,7 @@ nav {
   
   .inicio {
   font-size: 20px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   color: white;
   border: none;
   background-color: orange;
@@ -73,7 +73,7 @@ nav {
   }
   .logout {
       font-size: 20px;
-      font-family: 'Tilt Neon';
+      font-family: 'Quicksand';
       color: white;
       border: none;
       background-color: orange;
@@ -87,7 +87,7 @@ nav {
       }
       .registro {
         font-size: 20px;
-        font-family: 'Tilt Neon';
+        font-family: 'Quicksand';
         color: white;
         border: none;
         background-color: orange;
@@ -101,7 +101,7 @@ nav {
         }
         .inicio {
         font-size: 20px;
-        font-family: 'Tilt Neon';
+        font-family: 'Quicksand';
         color: white;
         border: none;
         background-color: orange;
@@ -131,18 +131,18 @@ nav {
 .congrats{
     margin-left: 40px;
     margin-top: 94px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 50px;
 }
 .congrats2{
     margin-left: 40px;
-    font-family: 'Tilt Neon', sans-serif ;
+    font-family: 'Quicksand', sans-serif ;
     font-size: 30px;
 }
 .congrats3{
     margin-left: 40px;
     color: rgba(255, 173, 0);
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 25px;
 }
 
@@ -160,7 +160,7 @@ nav {
     height: 62px;
     width: 174px;
     border: none;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
 }
@@ -171,7 +171,7 @@ nav {
     height: 62px;
     width: 174px;
     border: none;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
 }
@@ -183,7 +183,7 @@ nav {
     height: 62px;
     width: 174px;
     border: none;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
 }
@@ -194,7 +194,7 @@ nav {
     height: 62px;
     width: 174px;
     border: none;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 35px;
     color: rgba(255, 255, 255);
 }
@@ -273,7 +273,7 @@ li {
     font-size: 50px;
     font-weight: bold;
     margin-left: 15px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .missionsub {
@@ -281,29 +281,29 @@ li {
     font-size: 20px;
     margin-left: 35px;
     margin-bottom: 20px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .copyright {
     font-size: 14px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .contact-info {
     text-align: left;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .sub {
     margin-top: -25px;
     font-size: 20px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .tit {
     font-weight: bold;
     font-size: 25px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }

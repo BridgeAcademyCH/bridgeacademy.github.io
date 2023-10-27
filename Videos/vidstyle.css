@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   src: url('../img/fuente.ttf') format('truetype');
 }
 
@@ -16,13 +16,13 @@
 }
 .fiquizlink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161);
 }
 .ficongslink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161);
 }
@@ -46,13 +46,13 @@ background-color: rgb(204, 180, 128); /*multiplicar valores de rgb por 0,8*/
 }
 .chequizlink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(151, 204, 205);
 }
 .checongslink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(151, 204, 205)
 }
@@ -76,13 +76,13 @@ background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
 }
 .bioquizlink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(5, 110, 60);
 }
 .biocongslink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(5, 110, 60);
 }
@@ -106,13 +106,13 @@ background-color: rgb(5, 110, 60);
 }
 .hisquizlink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(135,193,89);
 }
 .hiscongslink{
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(135,193,89);
 }
@@ -131,7 +131,7 @@ background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
   position: relative;
 }
 .thisis{
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 font-size: 30px;
 }
 .quizzbutt{
@@ -141,7 +141,7 @@ position: absolute;
 top: 50%; transform: translateY(-50%);
 }
 .vidstit {
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 60px;
   margin-left: 10px;
 }
@@ -149,13 +149,13 @@ top: 50%; transform: translateY(-50%);
 margin-left: 60px;
 }
 .infovid{
-font-family: 'Tilt Neon', sans-serif;
+font-family: 'Quicksand', sans-serif;
 font-size: 45px;
 margin-top: 15px;
 margin-bottom: -10px;
 }
 .infovid1{
-font-family: 'Tilt Neon', sans-serif;
+font-family: 'Quicksand', sans-serif;
 font-size: 25px; 
 }
 
@@ -200,7 +200,7 @@ nav {
 }
 .registro {
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 color: white;
 border: none;
 background-color: orange;
@@ -215,7 +215,7 @@ background-color: rgb(194, 126, 1);
 
 .inicio {
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 color: white;
 border: none;
 background-color: orange;
@@ -229,7 +229,7 @@ background-color: rgb(194, 126, 1);
 }
 .logout {
     font-size: 20px;
-    font-family: 'Tilt Neon';
+    font-family: 'Quicksand';
     color: white;
     border: none;
     background-color: orange;
@@ -243,7 +243,7 @@ background-color: rgb(194, 126, 1);
     }
     .registro {
       font-size: 20px;
-      font-family: 'Tilt Neon';
+      font-family: 'Quicksand';
       color: white;
       border: none;
       background-color: orange;
@@ -257,7 +257,7 @@ background-color: rgb(194, 126, 1);
       }
       .inicio {
       font-size: 20px;
-      font-family: 'Tilt Neon';
+      font-family: 'Quicksand';
       color: white;
       border: none;
       background-color: orange;
@@ -322,7 +322,7 @@ footer {
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .missionsub {
@@ -330,29 +330,29 @@ footer {
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .copyright {
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .contact-info {
   text-align: left;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .sub {
   margin-top: -25px;
   font-size: 20px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .tit {
   font-weight: bold;
   font-size: 25px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }

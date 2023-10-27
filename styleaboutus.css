@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Tilt Neon';
+    font-family: 'Quicksand';
     src: url('img/fuente.ttf') format('truetype');
   }
 
@@ -32,7 +32,7 @@ nav {
 .registro,
 .logout {
     display: inline-block;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin-right: 5px;
     width: 170px;
     height: 50px;
@@ -45,7 +45,7 @@ nav {
 
 .inicio{
   display: inline-block;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   margin-right: 30px;
   width: 170px;
   height: 50px;
@@ -77,12 +77,12 @@ nav {
     margin-top: 50px;
     margin-left: 225px;
     font-size: 105px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .titulo2 {
     border-bottom: 7px solid orange;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .unapersona {
@@ -95,7 +95,7 @@ nav {
     margin-left: 772px;
     font-size: 45px;
     margin-top: -335px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .subrayado {
@@ -106,13 +106,13 @@ nav {
 .aprender {
     margin-left: 30px;
     font-size: 80px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .incrementa {
     margin-left: 40px;
     font-size: 35px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .calculadora {
@@ -122,7 +122,7 @@ nav {
 }
 
 .startnow {
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 100px;
     margin-left: 200px;
     margin-top: -200;
@@ -185,7 +185,7 @@ li {
     font-size: 50px;
     font-weight: bold;
     margin-left: 15px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .missionsub {
@@ -193,29 +193,29 @@ li {
     font-size: 20px;
     margin-left: 35px;
     margin-bottom: 20px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .copyright {
     font-size: 14px;
     margin-bottom: 20px;
     text-align: center;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .contact-info {
     text-align: left;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .sub {
     margin-top: -25px;
     font-size: 20px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
   
   .tit {
     font-weight: bold;
     font-size: 25px;
-    font-family: 'Tilt Neon', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }

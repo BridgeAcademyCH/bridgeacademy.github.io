@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   src: url('img/fuente.ttf') format('truetype');
 }
 
@@ -20,7 +20,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(204, 180, 128);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .physbutt:hover, .scinot:hover, .vectors:hover {
   background-color: rgb(204, 180, 128);
@@ -38,7 +38,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(108, 154, 71);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .histbutt:hover, .ww1:hover, .ww2:hover {
   background-color: rgb(108, 154, 71);
@@ -56,7 +56,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(4, 88, 48);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .biobutt:hover, .evo:hover, .men:hover {
   background-color: rgb(4, 88, 48);
@@ -74,7 +74,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(120, 163, 164);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .chebutt:hover, .nomen:hover, .stoich:hover {
   background-color: rgb(120, 163, 164); 
@@ -93,7 +93,7 @@
 }
 .phystit h3{
   padding: 5px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   font-size: 65px;
   margin-left: 70px;
   color: black;
@@ -109,7 +109,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(204, 180, 128);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -123,7 +123,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(204, 180, 128);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -135,7 +135,7 @@
 }
 .chetit h3{
   padding: 5px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   font-size: 65px;
   margin-left: 70px;
   color: black;
@@ -151,7 +151,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(120, 163, 164);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -165,7 +165,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(120, 163, 164);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -176,7 +176,7 @@
 }
 .histit h3{
   padding: 5px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   font-size: 65px;
   margin-left: 70px;
   color: black;
@@ -192,7 +192,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(108, 154, 71);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -206,7 +206,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(108, 154, 71);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -217,7 +217,7 @@
 }
 .biotit h3{
   padding: 5px;
-  font-family: 'Tilt Neon';
+  font-family: 'Quicksand';
   font-size: 65px;
   margin-left: 70px;
   color: black;
@@ -233,7 +233,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(4, 88, 48);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -247,7 +247,7 @@
   height: 200px;
   border-style: solid;
   border-color: rgb(4, 88, 48);
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
   font-size: 50px;
 }
 
@@ -292,7 +292,7 @@ nav {
 }
 .registro {
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 color: white;
 border: none;
 background-color: orange;
@@ -307,7 +307,7 @@ background-color: rgb(194, 126, 1);
 
 .inicio {
 font-size: 20px;
-font-family: 'Tilt Neon';
+font-family: 'Quicksand';
 color: white;
 border: none;
 background-color: orange;
@@ -321,7 +321,7 @@ background-color: rgb(194, 126, 1);
 }
 .logout {
     font-size: 20px;
-    font-family: 'Tilt Neon';
+    font-family: 'Quicksand';
     color: white;
     border: none;
     background-color: orange;
@@ -335,7 +335,7 @@ background-color: rgb(194, 126, 1);
     }
     .registro {
       font-size: 20px;
-      font-family: 'Tilt Neon';
+      font-family: 'Quicksand';
       color: white;
       border: none;
       background-color: orange;
@@ -349,7 +349,7 @@ background-color: rgb(194, 126, 1);
       }
       .inicio {
       font-size: 20px;
-      font-family: 'Tilt Neon';
+      font-family: 'Quicksand';
       color: white;
       border: none;
       background-color: orange;
@@ -414,7 +414,7 @@ footer {
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .missionsub {
@@ -422,29 +422,29 @@ footer {
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .copyright {
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .contact-info {
   text-align: left;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .sub {
   margin-top: -25px;
   font-size: 20px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .tit {
   font-weight: bold;
   font-size: 25px;
-  font-family: 'Tilt Neon', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
