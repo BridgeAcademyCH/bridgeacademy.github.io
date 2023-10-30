@@ -50,6 +50,7 @@ nav {
 .registro {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -66,6 +67,7 @@ background-color: rgb(194, 126, 1);
 .inicio {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -81,6 +83,7 @@ background-color: rgb(194, 126, 1);
 .logout {
   font-size: 20px;
   font-family: 'Quicksand';
+  border-radius: 7px;
   font-weight: bold;
   color: white;
   border: none;
@@ -127,6 +130,7 @@ background-color: rgb(194, 126, 1);
 .History{
     background-color: rgba(78, 197, 103);
     margin-right: 145px;
+    border-radius: 7px;
     height: 62px;
     width: 174px;
     border: none;
@@ -138,6 +142,7 @@ background-color: rgb(194, 126, 1);
     background-color: rgba(151, 204, 205);
     margin-left: 1px;
     margin-right: 15px;
+    border-radius: 7px;
     height: 62px;
     width: 174px;
     border: none;
@@ -150,6 +155,7 @@ background-color: rgb(194, 126, 1);
     background-color: rgba(0, 134, 76);
     margin-right: 130px;
     margin-left: 40px;
+    border-radius: 7px;
     height: 62px;
     width: 174px;
     border: none;
@@ -161,6 +167,7 @@ background-color: rgb(194, 126, 1);
     background-color: rgba(255, 225, 161);
     margin-left: 125px;
     margin-right: 40px;
+    border-radius: 7px;
     height: 62px;
     width: 174px;
     border: none;

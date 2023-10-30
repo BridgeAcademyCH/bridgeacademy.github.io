@@ -45,6 +45,7 @@ nav {
 .registro {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -61,6 +62,7 @@ background-color: rgb(194, 126, 1);
 .inicio {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -76,6 +78,7 @@ background-color: rgb(194, 126, 1);
 .logout {
   font-size: 20px;
   font-family: 'Quicksand';
+  border-radius: 7px;
   font-weight: bold;
   color: white;
   border: none;
@@ -110,52 +113,54 @@ h3{
   grid-template-columns: auto auto auto auto;
   text-align: center;
 }
+.imagen {
+  width: 95%; 
+  height: 95%; 
+}
 
-    .cuadro {
-        display: inline-block;
+.cuadro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
         width: 250px; 
         height: 250px;
         background-color: #FEE3A2; 
         text-align: center;
     }
 
-      .imagen {
-        width: 95%; 
-        height: 95%; 
-}
+      
 .cuadro2{
-    display: inline-block;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
     width: 250px; 
     height: 250px; 
-      background-color: #ADCACB;
+    background-color: #ADCACB;
     text-align: center;
   }
-  .imagen2 {
-    width: 95%; 
-    height: 95%;   
 
-}
 .cuadro3{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
     width: 250px; 
     height: 250px; 
     background-color: #87C159; 
     text-align: center;
   }
-  .imagen3{
-    width: 95%; 
-    height: 95%;   
-  }
+
   .cuadro4{
-   display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+    border-radius: 7px;
     width: 250px; 
     height: 250px; 
     background-color: #056E3C; 
     text-align: center;
-  }
-  .imagen4{
-    width: 95%; 
-    height: 95%;   
   }
 
 /*FOOTER*/

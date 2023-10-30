@@ -89,6 +89,7 @@ a {
 .sign {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    border-radius: 7px;
     width: 50%;
     height: 15%;
     font-size: 20px;
@@ -112,6 +113,7 @@ a {
 .createacc {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
+    border-radius: 7px;
     width: 50%;
     height: 15%;
     font-size: 20px;

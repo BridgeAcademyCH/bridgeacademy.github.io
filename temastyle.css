@@ -293,6 +293,7 @@ nav {
 .registro {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -309,6 +310,7 @@ background-color: rgb(194, 126, 1);
 .inicio {
 font-size: 20px;
 font-family: 'Quicksand';
+border-radius: 7px;
 font-weight: bold;
 color: white;
 border: none;
@@ -324,6 +326,7 @@ background-color: rgb(194, 126, 1);
 .logout {
   font-size: 20px;
   font-family: 'Quicksand';
+  border-radius: 7px;
   font-weight: bold;
   color: white;
   border: none;
