@@ -108,52 +108,38 @@ h3{
   font-size: 35px;
 }
 
-.cardsM{
+.cardsM {
   display: grid;
   grid-template-columns: auto auto auto auto;
   text-align: center;
 }
+
 .imagen {
-  width: 95%; 
-  height: 95%; 
+  width: 95%;
+  height: 95%;
+  margin-top: 6.25px;
 }
 
-.cuadro {
-        display: inline-block;
-        border-radius: 7px;
-        width: 250px; 
-        height: 250px;
-        background-color: #FEE3A2; 
-        text-align: center;
-    }
+.cuadro, .cuadro2, .cuadro3, .cuadro4 {
+  display: inline-block;
+  border-radius: 7px;
+  width: 250px;
+  height: 250px;
+  background-color: #FEE3A2;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
 
-      
-.cuadro2{
-    display: inline-block;
-    border-radius: 7px;
-    width: 250px; 
-    height: 250px; 
-    background-color: #ADCACB;
-    text-align: center;
-  }
-
-.cuadro3{
-    display: inline-block;
-    border-radius: 7px;
-    width: 250px; 
-    height: 250px; 
-    background-color: #87C159; 
-    text-align: center;
-  }
-
-  .cuadro4{
-    display: inline-block;
-    border-radius: 7px;
-    width: 250px; 
-    height: 250px; 
-    background-color: #056E3C; 
-    text-align: center;
-  }
+.cuadro2 {
+  background-color: #ADCACB;
+}
+.cuadro3 {
+  background-color: #87C159;
+}
+.cuadro4 {
+  background-color: #056E3C;
+}
 
 /*FOOTER*/
 li {
