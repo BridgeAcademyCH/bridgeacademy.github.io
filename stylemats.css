@@ -114,11 +114,13 @@ h3{
   text-align: center;
 }
 .imagen {
+  width: 95%; 
+  height: 95%; 
+}
+.cuadrito{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 95%; 
-  height: 95%; 
 }
 
 .cuadro {
