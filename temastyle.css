@@ -101,6 +101,7 @@
 
 .vectors{
   float: left ;
+  border-radius: 7px;
   margin-left: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -115,6 +116,7 @@
 
 .scinot{
   float: right ;
+  border-radius: 7px;
   margin-right: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -143,6 +145,7 @@
 
 .nomen{
   float: left ;
+  border-radius: 7px;
   margin-left: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -157,6 +160,7 @@
 
 .stoich{
   float: right ;
+  border-radius: 7px;
   margin-right: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -184,6 +188,7 @@
 
 .ww1{
   float: left ;
+  border-radius: 7px;
   margin-left: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -198,6 +203,7 @@
 
 .ww2{
   float: right ;
+  border-radius: 7px;
   margin-right: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -225,6 +231,7 @@
 
 .evo{
   float: left ;
+  border-radius: 7px;
   margin-left: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
@@ -239,6 +246,7 @@
 
 .men{
   float: right ;
+  border-radius: 7px;
   margin-right: 100px;
   margin-top: 60px;
   margin-bottom: 60px;
