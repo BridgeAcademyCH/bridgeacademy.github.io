@@ -114,15 +114,15 @@ h3{
   text-align: center;
 }
 .imagen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 95%; 
   height: 95%; 
 }
 
 .cuadro {
-        display: flex;
         display: inline-block;
-        justify-content: center;
-        align-items: center;
         border-radius: 7px;
         width: 250px; 
         height: 250px;
@@ -132,10 +132,7 @@ h3{
 
       
 .cuadro2{
-    display: flex;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     border-radius: 7px;
     width: 250px; 
     height: 250px; 
@@ -144,10 +141,7 @@ h3{
   }
 
 .cuadro3{
-    display: flex;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     border-radius: 7px;
     width: 250px; 
     height: 250px; 
@@ -156,10 +150,7 @@ h3{
   }
 
   .cuadro4{
-    display: flex;
     display: inline-block;
-    justify-content: center;
-    align-items: center;
     border-radius: 7px;
     width: 250px; 
     height: 250px; 
