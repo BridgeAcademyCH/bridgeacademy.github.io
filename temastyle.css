@@ -294,7 +294,7 @@ nav {
 }
 .inicio {
   display: inline-block;
-  margin-right: 30px;
+  margin-right: auto;
   width: 170px;
   height: 50px;
 }
