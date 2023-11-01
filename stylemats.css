@@ -121,7 +121,7 @@ h3{
   object-fit: cover;
 }
 .imagen:hover{
-  transform: scale(1.0);
+  transform: scale(1.1);
 }
 
 .cuadro, .cuadro2, .cuadro3, .cuadro4 {
