@@ -118,6 +118,11 @@ h3{
   width: 95%;
   height: 95%;
   margin-top: 6.25px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.imagen:hover{
+  transform: scale(1);
 }
 
 .cuadro, .cuadro2, .cuadro3, .cuadro4 {
