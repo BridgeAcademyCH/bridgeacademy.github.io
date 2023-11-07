@@ -152,6 +152,7 @@ li {
 }
 
 footer {
+  margin: 0px;
   border-color:rgb(255, 173, 0) ;
   background-color: rgb(255, 173, 0);
   color: #fff;
