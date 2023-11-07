@@ -19,18 +19,24 @@ font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161);
+border-style: solid;
+border-color: rgb(204, 180, 128);
 }
 .ficongslink{
 font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(255, 225, 161);
-}
-.fiquizlink:active, .ficongslink:active {
-background-color: rgb(204, 180, 128); /*multiplicar valores de rgb por 0,8*/
+border-style: solid;
+border-color: rgb(204, 180, 128);
 }
 .fiquizlink:hover, .ficongslink:hover {
-  background-color: rgb(204, 180, 128); /*multiplicar valores de rgb por 0,8*/
+  background-color: rgb(204, 180, 128);
+  border-color:rgb(178, 157, 112); ;
+}
+.fiquizlink:active, .ficongslink:active {
+  background-color: rgb(178, 157, 112); 
+  border-color: rgb(153, 135, 76);
 }
 
 /*QUIMICA*/
@@ -49,18 +55,24 @@ font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(151, 204, 205);
+border-style: solid;
+border-color: rgb(120, 163, 164);
 }
 .checongslink{
 font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
-background-color: rgb(151, 204, 205)
-}
-.chequizlink:active, .checongslink:active {
-background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
+background-color: rgb(151, 204, 205);
+border-style: solid;
+border-color: rgb(120, 163, 164);
 }
 .chequizlink:hover, .checongslink:hover {
-  background-color: rgb(120, 163, 164); /*multiplicar valores de rgb por 0,8*/
+  background-color: rgb(120, 163, 164); 
+  border-color: rgb(105, 142, 143); ;
+}
+.chequizlink:hover, .checongslink:hover {
+  background-color: rgb(105, 142, 143); 
+  border-color: rgb(90, 122, 123);
 }
 
 /*BIOLOGIA*/
@@ -79,18 +91,24 @@ font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(5, 110, 60);
+border-style: solid;
+border-color: rgb(4, 88, 48);
 }
 .biocongslink{
 font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(5, 110, 60);
-}
-.bioquizlink:active, .biocongslink:active {
-  background-color: rgb(4, 88, 48); /*multiplicar valores de rgb por 0,8*/
+border-style: solid;
+border-color: rgb(4, 88, 48);
 }
 .bioquizlink:hover, .biocongslink:hover {
-  background-color: rgb(4, 88, 48); /*multiplicar valores de rgb por 0,8*/
+  background-color: rgb(4, 88, 48);
+  border-color: rgb(4, 77, 42);
+}
+.bioquizlink:active, .biocongslink:active {
+  background-color: rgb(4, 77, 42);
+  border-color: rgb(3, 66, 36);
 }
 
 /*HISTORIA*/
@@ -109,18 +127,24 @@ font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(135,193,89);
+border-style: solid;
+border-color: rgb(108, 154, 71);
 }
 .hiscongslink{
 font-size: 20px;
 font-family: 'Quicksand';
 padding: 10px 15px;
 background-color: rgb(135,193,89);
+border-style: solid;
+border-color: rgb(108, 154, 71);
 }
-.hisquizlink:active, .hiscongslink:active {
-background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
+.hisquizlink:hover, .hiscongslink:hover{
+  background-color: rgb(108, 154, 71);
+  border-color: rgb(94, 135, 62);
 }
-.hisquizlink:hover, .hiscongslink:hover {
-  background-color: rgb(108, 154, 71); /*multiplicar valores de rgb por 0,8*/
+.hisquizlink:active, .hiscongslink:active{
+  background-color: rgb(94, 135, 62);
+  border-color: rgb(81, 115, 53);
 }
 
 /*PERMA*/
