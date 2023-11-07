@@ -34,7 +34,7 @@ border-color: rgb(204, 180, 128);
   background-color: rgb(204, 180, 128);
   border-color:rgb(178, 157, 112); ;
 }
-.fiquizlink:active, .ficongslink:active {
+.fiquizlink:focus, .ficongslink:focus {
   background-color: rgb(178, 157, 112); 
   border-color: rgb(153, 135, 76);
 }
