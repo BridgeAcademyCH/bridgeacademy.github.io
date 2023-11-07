@@ -130,6 +130,7 @@ background-color: rgb(194, 126, 1);
 .History{
     background-color: rgb(135,193,89);
     border-color: rgb(108, 154, 71);
+    border-style: solid;
     margin-right: 145px;
     border-radius: 7px;
     height: 62px;
@@ -151,6 +152,7 @@ background-color: rgb(194, 126, 1);
 .Chemistry{
     background-color: rgba(151, 204, 205);
     border-color: rgb(120, 163, 164);
+    border-style: solid;
     margin-left: 1px;
     margin-right: 15px;
     border-radius: 7px;
@@ -174,6 +176,7 @@ background-color: rgb(194, 126, 1);
 .Biology{
     background-color: rgb(5, 110, 60);
     border-color: rgb(4, 88, 48);
+    border-style: solid;
     margin-right: 130px;
     margin-left: 40px;
     border-radius: 7px;
@@ -196,6 +199,7 @@ background-color: rgb(194, 126, 1);
 .Physics{
     background-color: rgba(255, 225, 161);
     border-color: rgb(204, 180, 128);
+    border-style: solid;
     margin-left: 125px;
     margin-right: 40px;
     border-radius: 7px;
