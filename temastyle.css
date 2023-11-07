@@ -21,6 +21,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(204, 180, 128);
+  border: 3px;
   font-family: 'Quicksand', sans-serif;
 }
 .physbutt:hover, .scinot:hover, .vectors:hover {
@@ -39,6 +40,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(108, 154, 71);
+  border: 3px;
   font-family: 'Quicksand', sans-serif;
 }
 .histbutt:hover, .ww1:hover, .ww2:hover {
@@ -57,6 +59,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(4, 88, 48);
+  border: 3px;
   font-family: 'Quicksand', sans-serif;
 }
 .biobutt:hover, .evo:hover, .men:hover {
@@ -75,6 +78,7 @@
   font-size: 50px;
   border-style: solid;
   border-color: rgb(120, 163, 164);
+  border: 3px;
   font-family: 'Quicksand', sans-serif;
 }
 .chebutt:hover, .nomen:hover, .stoich:hover {
