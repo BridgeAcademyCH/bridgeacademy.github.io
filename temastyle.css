@@ -15,7 +15,7 @@
 
 .physbutt{
   background-color: rgb(255, 225, 161);
-  width: 450px;
+  width: 33.33%;
   height: 80px;
   font-size: 50px;
   border-style: solid;
@@ -33,7 +33,7 @@
 
 .histbutt{
   background-color: rgb(135,193,89);
-  width: 449px;
+  width: 33.33%;
   height: 80px;
   font-size: 50px;
   border-style: solid;
@@ -51,7 +51,7 @@
 
 .biobutt{
   background-color: rgb(5, 110, 60);
-  width: 449px;
+  width: 33.33%;
   height: 80px;
   font-size: 50px;
   border-style: solid;
@@ -69,7 +69,7 @@
 
 .chebutt{
   background-color: rgb(151, 204, 205);
-  width: 450px;
+  width: 33.33%;
   height: 80px;
   font-size: 50px;
   border-style: solid;
