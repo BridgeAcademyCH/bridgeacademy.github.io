@@ -11,6 +11,7 @@
 
 .btn-group{
   margin-top: 74px;
+  box-sizing: 100%;
 }
 
 .physbutt{
