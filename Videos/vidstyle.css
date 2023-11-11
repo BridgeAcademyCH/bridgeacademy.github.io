@@ -3,32 +3,19 @@
   src: url('../img/fuente.ttf') format('truetype');
 }
 
-/*FISICA*/
+/*CONTENIDO DE FÍSICA*/
 .scinotit {
   margin-top: 74px;
   background-color: rgb(255, 225, 161);
   height: 90px;
 }
-.flecha1 {
-  width: 50px;
-  height: auto;
-  margin-bottom: 10px;
-}
-.fiquizlink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(255, 225, 161);
-border-style: solid;
-border-color: rgb(204, 180, 128);
-}
-.ficongslink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(255, 225, 161);
-border-style: solid;
-border-color: rgb(204, 180, 128);
+.fiquizlink, .ficongslink{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px 15px;
+  background-color: rgb(255, 225, 161);
+  border-style: solid;
+  border-color: rgb(204, 180, 128);
 }
 .fiquizlink:hover, .ficongslink:hover {
   background-color: rgb(204, 180, 128);
@@ -39,32 +26,19 @@ border-color: rgb(204, 180, 128);
   border-color: rgb(153, 135, 76);
 }
 
-/*QUIMICA*/
+/*CONTENIDO DE QUÍMICA*/
 .nomentit {
   margin-top: 74px;
   background-color: rgb(151, 204, 205);
   height: 90px;
 }
-.flecha2 {
-  width: 50px;
-  height: auto;
-  margin-bottom: 10px;
-}
-.chequizlink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(151, 204, 205);
-border-style: solid;
-border-color: rgb(120, 163, 164);
-}
-.checongslink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(151, 204, 205);
-border-style: solid;
-border-color: rgb(120, 163, 164);
+.chequizlink, .checongslink{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px 15px;
+  background-color: rgb(151, 204, 205);
+  border-style: solid;
+  border-color: rgb(120, 163, 164);
 }
 .chequizlink:hover, .checongslink:hover {
   background-color: rgb(120, 163, 164); 
@@ -75,32 +49,19 @@ border-color: rgb(120, 163, 164);
   border-color: rgb(90, 122, 123);
 }
 
-/*BIOLOGIA*/
+/*CONTENIDO DE BIOLOGÍA*/
 .menlawtit {
   margin-top: 74px;
   background-color: rgb(5, 110, 60);
   height: 90px;
 }
-.flecha3 {
-  width: 50px;
-  height: auto;
-  margin-bottom: 10px;
-}
-.bioquizlink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(5, 110, 60);
-border-style: solid;
-border-color: rgb(4, 88, 48);
-}
-.biocongslink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(5, 110, 60);
-border-style: solid;
-border-color: rgb(4, 88, 48);
+.bioquizlink, .biocongslink{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px 15px;
+  background-color: rgb(5, 110, 60);
+  border-style: solid;
+  border-color: rgb(4, 88, 48);
 }
 .bioquizlink:hover, .biocongslink:hover {
   background-color: rgb(4, 88, 48);
@@ -111,32 +72,19 @@ border-color: rgb(4, 88, 48);
   border-color: rgb(3, 66, 36);
 }
 
-/*HISTORIA*/
+/*CONTENIDO DE HISTORIA*/
 .wwstit {
   margin-top: 74px;
   background-color: rgb(135,193,89);
   height: 90px;
 }
-.flecha4 {
-  width: 50px;
-  height: auto;
-  margin-bottom: 10px;
-}
-.hisquizlink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(135,193,89);
-border-style: solid;
-border-color: rgb(108, 154, 71);
-}
-.hiscongslink{
-font-size: 20px;
-font-family: 'Quicksand';
-padding: 10px 15px;
-background-color: rgb(135,193,89);
-border-style: solid;
-border-color: rgb(108, 154, 71);
+.hisquizlink, .hiscongslink{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px 15px;
+  background-color: rgb(135,193,89);
+  border-style: solid;
+  border-color: rgb(108, 154, 71);
 }
 .hisquizlink:hover, .hiscongslink:hover{
   background-color: rgb(108, 154, 71);
@@ -147,7 +95,7 @@ border-color: rgb(108, 154, 71);
   border-color: rgb(81, 115, 53);
 }
 
-/*PERMA*/
+/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS*/
 .scinovid{
   margin-left: 60px;
   margin-top: 25px;
@@ -155,14 +103,14 @@ border-color: rgb(108, 154, 71);
   position: relative;
 }
 .thisis{
-font-family: 'Quicksand';
-font-size: 30px;
+  font-family: 'Quicksand';
+  font-size: 30px;
 }
 .quizzbutt{
-margin-left: 850px;
-margin-top: 100px;
-position: absolute;
-top: 50%; transform: translateY(-50%);
+  margin-left: 850px;
+  margin-top: 100px;
+  position: absolute;
+  top: 50%; transform: translateY(-50%);
 }
 .vidstit {
   font-family: 'Quicksand', sans-serif;
@@ -170,20 +118,25 @@ top: 50%; transform: translateY(-50%);
   margin-left: 10px;
 }
 .infovid0{
-margin-left: 60px;
+  margin-left: 60px;
 }
 .infovid{
-font-family: 'Quicksand', sans-serif;
-font-size: 45px;
-margin-top: 15px;
-margin-bottom: -10px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 45px;
+  margin-top: 15px;
+  margin-bottom: -10px;
 }
 .infovid1{
-font-family: 'Quicksand', sans-serif;
-font-size: 25px; 
+  font-family: 'Quicksand', sans-serif;
+  font-size: 25px; 
+}
+.flecha1, .flecha2, .flecha3, .flecha4{
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
-/*NAV*/
+/*NAV BAR*/
 nav {
   position: fixed;
   top: 0;
@@ -204,58 +157,10 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout {
+.logout, .registro, .inicio {
   display: inline-block;
-  margin-right: 4px;
   width: 170px;
   height: 50px;
-}
-.registro {
-  display: inline-block;
-  margin-right: 5px;
-  width: 170px;
-  height: 50px;
-}
-.inicio {
-  display: inline-block;
-  margin-right: 10px;
-  width: 170px;
-  height: 50px;
-}
-.registro {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.registro:hover {
-background-color: rgb(221, 144, 0);
-}
-.registro:active{
-background-color: rgb(194, 126, 1);
-}
-
-.inicio {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.inicio:hover {
-background-color: rgb(221, 144, 0);
-}
-.inicio:active{
-background-color: rgb(194, 126, 1);
-}
-.logout {
   font-size: 20px;
   font-family: 'Quicksand';
   border-radius: 7px;
@@ -264,19 +169,34 @@ background-color: rgb(194, 126, 1);
   border: none;
   background-color: orange;
   transition: background-color 0.3s;
-  }
-  .logout:hover {
+}
+.logout{
+  margin-right: 4px;
+}
+.registro {
+  margin-right: 5px;
+}
+.inicio {
+  margin-right: 10px;
+}
+.registro {
+  font-size: 20px;
+  font-family: 'Quicksand';
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.logout:hover, .registro:hover, .inicio:hover {
   background-color: rgb(221, 144, 0);
-  }
-  .logout:active{
+}
+.logout:active, .logout:active, .registro:active{
   background-color: rgb(194, 126, 1);
-  }
+}
   
 /*FOOTER*/
-li {
-  list-style-type: none;
-}
-
 footer {
   margin: 0px;
   background-color: rgb(255, 173, 0);
@@ -286,63 +206,49 @@ footer {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
-
 .leftfoot {
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-
 .footer-logo {
   display: flex;
   align-items: center;
   margin-right: 20px;
   margin-left: 25px;
 }
-
 .footer-logo img {
   width: 120px;
   height: auto;
   margin-bottom: 10px;
 }
-
 .company-name {
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .missionsub {
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .copyright {
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .contact-info {
   text-align: left;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .sub {
   margin-top: -25px;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .tit {
   font-weight: bold;
   font-size: 25px;
-  font-family: 'Quicksand', sans-serif;
 }

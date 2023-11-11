@@ -254,10 +254,6 @@ background-color: rgb(194, 126, 1);
 }
 
 /*FOOTER*/
-li {
-    list-style-type: none;
-  }
-  
   footer {
     margin: 0px;
     border-color:rgb(255, 173, 0) ;
