@@ -354,11 +354,8 @@ background-color: rgb(194, 126, 1);
   }
 
 /*FOOTER*/
-li {
-  list-style-type: none;
-}
-
 footer {
+  margin: 0px;
   background-color: rgb(255, 173, 0);
   color: #fff;
   padding: 30px 200px 20px 30px;
@@ -366,63 +363,53 @@ footer {
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  font-family: 'Quicksand', sans-serif;
 }
-
 .leftfoot {
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-
 .footer-logo {
   display: flex;
   align-items: center;
   margin-right: 20px;
   margin-left: 25px;
 }
-
 .footer-logo img {
   width: 120px;
   height: auto;
   margin-bottom: 10px;
 }
-
 .company-name {
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .missionsub {
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .copyright {
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .contact-info {
   text-align: left;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .sub {
   margin-top: -25px;
   font-size: 20px;
-  font-family: 'Quicksand', sans-serif;
 }
-
 .tit {
   font-weight: bold;
   font-size: 25px;
-  font-family: 'Quicksand', sans-serif;
+}
+.email p.sub a {
+  text-decoration: none;
+  color: white;
 }
