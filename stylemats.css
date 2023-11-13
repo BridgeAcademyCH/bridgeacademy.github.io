@@ -1,9 +1,58 @@
+/*TIPOGRAFÍA DE LA PÁGINA*/
 @font-face {
   font-family: 'Quicksand';
   src: url('img/fuente.ttf') format('truetype');
 }
 
-/*NAV*/
+/*CONTENIDO DE LA PÁGINA*/
+.textopresentativo {
+  text-align: center;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  margin-left: 40px;
+  color: #8F8F8F;
+}
+h3{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+}
+.cardsM {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+}
+.imagen {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.imagen:hover{
+  transform: scale(1.1);
+}
+.cuadro, .cuadro2, .cuadro3, .cuadro4 {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 7px;
+  width: 250px;
+  height: 250px;
+  background-color: #FEE3A2;
+  align-items: center;
+  justify-content: center; 
+  text-align: center;
+}
+.cuadro2 {
+  background-color: #ADCACB;
+}
+.cuadro3 {
+  background-color: #87C159;
+}
+.cuadro4 {
+  background-color: #056E3C;
+}
+
+/*NAV BAR*/
 nav {
   position: fixed;
   top: 0;
@@ -24,58 +73,10 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout {
+.logout, .registro, .inicio {
   display: inline-block;
-  margin-right: 5px;
   width: 170px;
   height: 50px;
-}
-.registro {
-  display: inline-block;
-  margin-right: 5px;
-  width: 170px;
-  height: 50px;
-}
-.inicio {
-  display: inline-block;
-  margin-right: 30px;
-  width: 170px;
-  height: 50px;
-}
-.registro {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.registro:hover {
-background-color: rgb(221, 144, 0);
-}
-.registro:active{
-background-color: rgb(194, 126, 1);
-}
-
-.inicio {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.inicio:hover {
-background-color: rgb(221, 144, 0);
-}
-.inicio:active{
-background-color: rgb(194, 126, 1);
-}
-.logout {
   font-size: 20px;
   font-family: 'Quicksand';
   border-radius: 7px;
@@ -84,66 +85,31 @@ background-color: rgb(194, 126, 1);
   border: none;
   background-color: orange;
   transition: background-color 0.3s;
-  }
-  .logout:hover {
-  background-color: rgb(221, 144, 0);
-  }
-  .logout:active{
-  background-color: rgb(194, 126, 1);
-  }
-
-/*CONTENIDO*/
-.textopresentativo {
-    text-align: center;
 }
-
-h1{
-    font-family: 'Quicksand', sans-serif;
-margin-left: 40px;
-color: #8F8F8F;
+.logout{
+  margin-right: 4px;
 }
-
-h3{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 35px;
+.registro {
+  margin-right: 5px;
 }
-
-.cardsM {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  text-align: center;
+.inicio {
+  margin-right: 10px;
 }
-
-.imagen {
-  width: 100%;
-  height: 100%;
-  transition: 0.5s;
-  object-fit: cover;
-}
-.imagen:hover{
-  transform: scale(1.1);
-}
-
-.cuadro, .cuadro2, .cuadro3, .cuadro4 {
-  display: inline-block;
-  overflow: hidden;
+.registro {
+  font-size: 20px;
+  font-family: 'Quicksand';
   border-radius: 7px;
-  width: 250px;
-  height: 250px;
-  background-color: #FEE3A2;
-  align-items: center;
-  justify-content: center; 
-  text-align: center;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
 }
-
-.cuadro2 {
-  background-color: #ADCACB;
+.logout:hover, .registro:hover, .inicio:hover {
+  background-color: rgb(221, 144, 0);
 }
-.cuadro3 {
-  background-color: #87C159;
-}
-.cuadro4 {
-  background-color: #056E3C;
+.logout:active, .logout:active, .registro:active{
+  background-color: rgb(194, 126, 1);
 }
 
 /*FOOTER*/
@@ -205,4 +171,10 @@ footer {
 .email p.sub a {
   text-decoration: none;
   color: white;
+}
+.email p.sub a:hover {
+  color: rgb(178, 178, 178);
+}
+.email p.sub a:active {
+  color: rgb(153, 153, 153);
 }

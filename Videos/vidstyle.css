@@ -1,3 +1,4 @@
+/*TIPOGRAFÍA DE LA PÁGINA*/
 @font-face {
   font-family: 'Quicksand';
   src: url('../img/fuente.ttf') format('truetype');
@@ -16,6 +17,7 @@
   background-color: rgb(255, 225, 161);
   border-style: solid;
   border-color: rgb(204, 180, 128);
+  transition: background-color 0.3s;
 }
 .fiquizlink:hover, .ficongslink:hover {
   background-color: rgb(204, 180, 128);
@@ -39,6 +41,7 @@
   background-color: rgb(151, 204, 205);
   border-style: solid;
   border-color: rgb(120, 163, 164);
+  transition: background-color 0.3s;
 }
 .chequizlink:hover, .checongslink:hover {
   background-color: rgb(120, 163, 164); 
@@ -62,6 +65,7 @@
   background-color: rgb(5, 110, 60);
   border-style: solid;
   border-color: rgb(4, 88, 48);
+  transition: background-color 0.3s;
 }
 .bioquizlink:hover, .biocongslink:hover {
   background-color: rgb(4, 88, 48);
@@ -85,6 +89,7 @@
   background-color: rgb(135,193,89);
   border-style: solid;
   border-color: rgb(108, 154, 71);
+  transition: background-color 0.3s;
 }
 .hisquizlink:hover, .hiscongslink:hover{
   background-color: rgb(108, 154, 71);
@@ -95,7 +100,7 @@
   border-color: rgb(81, 115, 53);
 }
 
-/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS*/
+/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS DE VIDEOS*/
 .scinovid{
   margin-left: 60px;
   margin-top: 25px;
@@ -103,7 +108,7 @@
   position: relative;
 }
 .thisis{
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', sans-serif;
   font-size: 30px;
 }
 .quizzbutt{
@@ -255,4 +260,10 @@ footer {
 .email p.sub a {
   text-decoration: none;
   color: white;
+}
+.email p.sub a:hover {
+  color: rgb(178, 178, 178);
+}
+.email p.sub a:active {
+  color: rgb(153, 153, 153);
 }

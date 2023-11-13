@@ -1,28 +1,37 @@
+/*TIPOGRAFÍA DE LA PÁGINA*/
 @font-face {
   font-family: 'Quicksand';
   src: url('img/fuente.ttf') format('truetype');
 }
 
-/*BOTONES*/
-.temas{
-  padding: 10px;
-  overflow: hidden;
+/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS DE TEMAS*/
+h3{
+  padding: 5px;
+  font-family: 'Quicksand';
+  font-size: 65px;
+  margin-left: 70px;
+  color: black;
 }
-
 .btn-group{
   margin-top: 74px;
   width: 100%;
 }
-
-.physbutt{
-  background-color: rgb(255, 225, 161);
+.temas{
+  padding: 10px;
+  overflow: hidden;
+}
+.physbutt, .chebutt, .histbutt, .biobutt{
   height: 80px;
   width: 450px;
   font-size: 50px;
   border-style: solid;
-  border-color: rgb(204, 180, 128);
   border: 3px;
   font-family: 'Quicksand', sans-serif;
+  transition: background-color 0.3s;
+}
+.physbutt{
+  background-color: rgb(255, 225, 161);
+  border-color: rgb(204, 180, 128);
 }
 .physbutt:hover, .scinot:hover, .vectors:hover {
   background-color: rgb(204, 180, 128);
@@ -32,16 +41,21 @@
   background-color: rgb(178, 157, 112); 
   border-color: rgb(153, 135, 76);
 }
-
+.chebutt{
+  background-color: rgb(151, 204, 205);
+  border-color: rgb(120, 163, 164);
+}
+.chebutt:hover, .nomen:hover, .stoich:hover {
+  background-color: rgb(120, 163, 164); 
+  border-color: rgb(105, 142, 143); ;
+}
+.chebutt:active, .nomen:active, .stoich:active {
+  background-color: rgb(105, 142, 143); 
+  border-color: rgb(90, 122, 123);
+}
 .histbutt{
   background-color: rgb(135,193,89);
-  height: 80px;
-  width: 450px;
-  font-size: 50px;
-  border-style: solid;
   border-color: rgb(108, 154, 71);
-  border: 3px;
-  font-family: 'Quicksand', sans-serif;
 }
 .histbutt:hover, .ww1:hover, .ww2:hover {
   background-color: rgb(108, 154, 71);
@@ -51,16 +65,9 @@
   background-color: rgb(94, 135, 62);
   border-color: rgb(81, 115, 53);
 }
-
 .biobutt{
   background-color: rgb(5, 110, 60);
-  height: 80px;
-  width: 450px;
-  font-size: 50px;
-  border-style: solid;
   border-color: rgb(4, 88, 48);
-  border: 3px;
-  font-family: 'Quicksand', sans-serif;
 }
 .biobutt:hover, .evo:hover, .men:hover {
   background-color: rgb(4, 88, 48);
@@ -71,200 +78,77 @@
   border-color: rgb(3, 66, 36);
 }
 
-.chebutt{
-  background-color: rgb(151, 204, 205);
-  height: 80px;
-  width: 450px;
-  font-size: 50px;
+/*BOTONES DE LOS TEMAS DE LA PARTE IZQUIERDA*/
+.vectors, .nomen, .ww1, .evo{
+  float: left ;
+  border-radius: 7px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  width: 500px;
+  height: 200px;
   border-style: solid;
-  border-color: rgb(120, 163, 164);
-  border: 3px;
   font-family: 'Quicksand', sans-serif;
-}
-.chebutt:hover, .nomen:hover, .stoich:hover {
-  background-color: rgb(120, 163, 164); 
-  border-color: rgb(105, 142, 143); ;
-}
-.chebutt:active, .nomen:active, .stoich:active {
-  background-color: rgb(105, 142, 143); 
-  border-color: rgb(90, 122, 123);
+  font-size: 50px;
+  transition: background-color 0.3s;
 }
 
+/*BOTONES DE LOS TEMAS DE LA PARTE DERECHA*/
+.scinot, .stoich, .ww2, .men{
+  float: left ;
+  border-radius: 7px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 100px;
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  transition: background-color 0.3s;
+}
 
-/*FISICA*/
+/*TEMAS DE FISICA*/
 .phystit {
   background-color: rgb(255, 225, 161);
   height: 90px;
 }
-.phystit h3{
-  padding: 5px;
-  font-family: 'Quicksand';
-  font-size: 65px;
-  margin-left: 70px;
-  color: black;
-}
-
-.vectors{
-  float: left ;
-  border-radius: 7px;
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.vectors, .scinot{
   background-color: rgb(255, 225, 161);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
   border-color: rgb(204, 180, 128);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
 }
 
-.scinot{
-  float: right ;
-  border-radius: 7px;
-  margin-right: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background-color: rgb(255, 225, 161);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-color: rgb(204, 180, 128);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-}
-
-/*QUIMICA*/
-
+/*TEMAS DE QUIMICA*/
 .chetit {
   background-color: rgb(151, 204, 205);
   height: 90px;
 }
-.chetit h3{
-  padding: 5px;
-  font-family: 'Quicksand';
-  font-size: 65px;
-  margin-left: 70px;
-  color: black;
-}
-
-.nomen{
-  float: left ;
-  border-radius: 7px;
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.nomen, .stoich{
   background-color: rgb(151, 204, 205);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
   border-color: rgb(120, 163, 164);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
 }
 
-.stoich{
-  float: right ;
-  border-radius: 7px;
-  margin-right: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background-color: rgb(151, 204, 205);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-color: rgb(120, 163, 164);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-}
-
-/*HISTORIA*/
+/*TEMAS DE HISTORIA*/
 .histit {
   background-color: rgb(135,193,89);
   height: 90px;
 }
-.histit h3{
-  padding: 5px;
-  font-family: 'Quicksand';
-  font-size: 65px;
-  margin-left: 70px;
-  color: black;
-}
-
-.ww1{
-  float: left ;
-  border-radius: 7px;
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.ww1, .ww2{
   background-color: rgb(135,193,89);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
   border-color: rgb(108, 154, 71);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
 }
 
-.ww2{
-  float: right ;
-  border-radius: 7px;
-  margin-right: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background-color: rgb(135,193,89);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-color: rgb(108, 154, 71);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-}
-
-/*BIOLOGIA*/
+/*TEMAS DE BIOLOGIA*/
 .biotit {
   background-color: rgb(5, 110, 60);
   height: 90px;
 }
-.biotit h3{
-  padding: 5px;
-  font-family: 'Quicksand';
-  font-size: 65px;
-  margin-left: 70px;
-  color: black;
-}
-
-.evo{
-  float: left ;
-  border-radius: 7px;
-  margin-left: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
+.evo, .men{
   background-color: rgb(5, 110, 60);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-color: rgb(4, 88, 48);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
+  border-color: rgb(4, 88, 48);  
 }
 
-.men{
-  float: right ;
-  border-radius: 7px;
-  margin-right: 100px;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  background-color: rgb(5, 110, 60);
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  border-color: rgb(4, 88, 48);
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-}
-
-/*NAV*/
+/*NAV BAR*/
 nav {
   position: fixed;
   top: 0;
@@ -285,58 +169,10 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout {
+.logout, .registro, .inicio {
   display: inline-block;
-  margin-right: 4px;
   width: 170px;
   height: 50px;
-}
-.registro {
-  display: inline-block;
-  margin-right: 5px;
-  width: 170px;
-  height: 50px;
-}
-.inicio {
-  display: inline-block;
-  margin-right: 10px;
-  width: 170px;
-  height: 50px;
-}
-.registro {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.registro:hover {
-background-color: rgb(221, 144, 0);
-}
-.registro:active{
-background-color: rgb(194, 126, 1);
-}
-
-.inicio {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.inicio:hover {
-background-color: rgb(221, 144, 0);
-}
-.inicio:active{
-background-color: rgb(194, 126, 1);
-}
-.logout {
   font-size: 20px;
   font-family: 'Quicksand';
   border-radius: 7px;
@@ -345,13 +181,32 @@ background-color: rgb(194, 126, 1);
   border: none;
   background-color: orange;
   transition: background-color 0.3s;
-  }
-  .logout:hover {
+}
+.logout{
+  margin-right: 4px;
+}
+.registro {
+  margin-right: 5px;
+}
+.inicio {
+  margin-right: 10px;
+}
+.registro {
+  font-size: 20px;
+  font-family: 'Quicksand';
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.logout:hover, .registro:hover, .inicio:hover {
   background-color: rgb(221, 144, 0);
-  }
-  .logout:active{
+}
+.logout:active, .logout:active, .registro:active{
   background-color: rgb(194, 126, 1);
-  }
+}
 
 /*FOOTER*/
 footer {
@@ -412,4 +267,10 @@ footer {
 .email p.sub a {
   text-decoration: none;
   color: white;
+}
+.email p.sub a:hover {
+  color: rgb(178, 178, 178);
+}
+.email p.sub a:active {
+  color: rgb(153, 153, 153);
 }
