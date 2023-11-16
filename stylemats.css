@@ -161,8 +161,8 @@ footer{
   transition: color 0.3s;
 }
 .email p.sub a:hover{
-  color: rgb(236, 236, 236);
+  color: rgb(201, 201, 201);
 }
 .email p.sub a:active{
-  color: rgb(229, 229, 229);
+  color: rgb(177, 177, 177);
 }
