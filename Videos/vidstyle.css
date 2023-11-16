@@ -119,9 +119,7 @@
   font-size: 20px;
   font-family: 'Quicksand';
   padding: 10px 15px;
-  background-color: rgb(255, 225, 161);
   border-style: solid;
-  border-color: rgb(204, 180, 128);
   transition: background-color 0.3s;
 }
 .scinotit, .nomentit, .wwstit, .menlawtit{
