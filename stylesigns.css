@@ -26,7 +26,7 @@
     display: flex;
 }
 .box{
-    height: 54.5%;
+    height: 380px;
 }
 .box2{
     height: 390px;
@@ -89,30 +89,28 @@ a{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     border-radius: 7px;
-    width: 50%;
-    height: 15%;
     font-size: 20px;
     color: white;
     border: none;
     background-color: orange;
-    margin-left: 229px;
-    margin-top: -60px;
     margin-bottom: 20;
     transition: background-color 0.3s;
 }
-.createacc, .sign{
+.createacc{
     margin-left: 73%;
     margin-top: -4%;
+    width: 50%;
+    height: 15%;
 }
-.sign:hover{
+.sign{
+    margin-left: 106%;
+    margin-top: -9%;
+    width: 65%;
+    height: 15%;
+}
+.sign:hover, .createacc:hover{
     background-color: rgb(221, 144, 0);
 }
-.sign:active{
-    background-color: rgb(194, 126, 1);
-}
-.createacc:hover{
-    background-color: rgb(221, 144, 0);
-}
-.createacc:active{
+.sign:active, .createacc:active{
     background-color: rgb(194, 126, 1);
 }
