@@ -52,8 +52,8 @@ h3{
   background-color: #056E3C;
 }
 
-/*NAV BAR*/
-nav {
+/*Nav Bar*/
+nav{
   position: fixed;
   top: 0;
   left: 0;
@@ -64,7 +64,7 @@ nav {
   border-bottom: 4px solid #e8e8ee;
   z-index: 1;
 }
-.logobridge {
+.logobridge{
   vertical-align: middle;
   justify-content: left;
   align-items: left;
@@ -73,7 +73,7 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout, .registro, .inicio {
+.logout, .registro, .inicio{
   display: inline-block;
   width: 170px;
   height: 50px;
@@ -89,31 +89,21 @@ nav {
 .logout{
   margin-right: 4px;
 }
-.registro {
+.registro{
   margin-right: 5px;
 }
-.inicio {
+.inicio{
   margin-right: 10px;
 }
-.registro {
-  font-size: 20px;
-  font-family: 'Quicksand';
-  border-radius: 7px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-}
-.logout:hover, .registro:hover, .inicio:hover {
+.logout:hover, .registro:hover, .inicio:hover{
   background-color: rgb(221, 144, 0);
 }
 .logout:active, .logout:active, .registro:active{
   background-color: rgb(194, 126, 1);
 }
 
-/*FOOTER*/
-footer {
+/*Footer*/
+footer{
   margin: 0px;
   background-color: rgb(255, 173, 0);
   color: #fff;
@@ -124,13 +114,13 @@ footer {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-.leftfoot {
+.leftfoot{
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-.footer-logo {
+.footer-logo{
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -141,40 +131,41 @@ footer {
   height: auto;
   margin-bottom: 10px;
 }
-.company-name {
+.company-name{
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
 }
-.missionsub {
+.missionsub{
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
 }
-.copyright {
+.copyright{
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-info {
+.contact-info{
   text-align: left;
 }
 .sub {
   margin-top: -25px;
   font-size: 20px;
 }
-.tit {
+.tit{
   font-weight: bold;
   font-size: 25px;
 }
-.email p.sub a {
+.email p.sub a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
 }
-.email p.sub a:hover {
-  color: rgb(178, 178, 178);
+.email p.sub a:hover{
+  color: rgb(236, 236, 236);
 }
-.email p.sub a:active {
-  color: rgb(153, 153, 153);
+.email p.sub a:active{
+  color: rgb(229, 229, 229);
 }

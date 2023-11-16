@@ -1,10 +1,10 @@
-/*TIPOGRAFÍA DE LA PÁGINA*/
-@font-face {
+/*Tipografía de la página*/
+@font-face{
   font-family: 'Quicksand';
   src: url('img/fuente.ttf') format('truetype');
 }
 
-/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS DE TEMAS*/
+/*Contenido presente en todas las páginas*/
 h3{
   padding: 5px;
   font-family: 'Quicksand';
@@ -20,6 +20,8 @@ h3{
   padding: 10px;
   overflow: hidden;
 }
+
+/*Botones de la parte de arriba. Actives y hovers de todos los botones*/
 .physbutt, .chebutt, .histbutt, .biobutt{
   height: 80px;
   width: 450px;
@@ -33,11 +35,11 @@ h3{
   background-color: rgb(255, 225, 161);
   border-color: rgb(204, 180, 128);
 }
-.physbutt:hover, .scinot:hover, .vectors:hover {
+.physbutt:hover, .scinot:hover, .vectors:hover{
   background-color: rgb(204, 180, 128);
   border-color:rgb(178, 157, 112); ;
 }
-.physbutt:active, .scinot:active, .vectors:active {
+.physbutt:active, .scinot:active, .vectors:active{
   background-color: rgb(178, 157, 112); 
   border-color: rgb(153, 135, 76);
 }
@@ -45,11 +47,11 @@ h3{
   background-color: rgb(151, 204, 205);
   border-color: rgb(120, 163, 164);
 }
-.chebutt:hover, .nomen:hover, .stoich:hover {
+.chebutt:hover, .nomen:hover, .stoich:hover{
   background-color: rgb(120, 163, 164); 
   border-color: rgb(105, 142, 143); ;
 }
-.chebutt:active, .nomen:active, .stoich:active {
+.chebutt:active, .nomen:active, .stoich:active{
   background-color: rgb(105, 142, 143); 
   border-color: rgb(90, 122, 123);
 }
@@ -57,11 +59,11 @@ h3{
   background-color: rgb(135,193,89);
   border-color: rgb(108, 154, 71);
 }
-.histbutt:hover, .ww1:hover, .ww2:hover {
+.histbutt:hover, .ww1:hover, .ww2:hover{
   background-color: rgb(108, 154, 71);
   border-color: rgb(94, 135, 62);
 }
-.histbutt:active, .ww1:active, .ww2:active {
+.histbutt:active, .ww1:active, .ww2:active{
   background-color: rgb(94, 135, 62);
   border-color: rgb(81, 115, 53);
 }
@@ -69,47 +71,37 @@ h3{
   background-color: rgb(5, 110, 60);
   border-color: rgb(4, 88, 48);
 }
-.biobutt:hover, .evo:hover, .men:hover {
+.biobutt:hover, .evo:hover, .men:hover{
   background-color: rgb(4, 88, 48);
   border-color: rgb(4, 77, 42);
 }
-.biobutt:active, .evo:active, .men:active {
+.biobutt:active, .evo:active, .men:active{
   background-color: rgb(4, 77, 42);
   border-color: rgb(3, 66, 36);
 }
 
-/*BOTONES DE LOS TEMAS DE LA PARTE IZQUIERDA*/
+/*Botones de los temas*/
+.vectors, .scinot, .nomen, .stoich, .ww1, .ww2, .evo, .men{
+  float: left ;
+  border-radius: 7px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  transition: background-color 0.3s;
+}
 .vectors, .nomen, .ww1, .evo{
-  float: left ;
-  border-radius: 7px;
-  margin-top: 60px;
-  margin-bottom: 60px;
   margin-left: 100px;
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  transition: background-color 0.3s;
 }
-
-/*BOTONES DE LOS TEMAS DE LA PARTE DERECHA*/
 .scinot, .stoich, .ww2, .men{
-  float: left ;
-  border-radius: 7px;
-  margin-top: 60px;
-  margin-bottom: 60px;
   margin-right: 100px;
-  width: 500px;
-  height: 200px;
-  border-style: solid;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
-  transition: background-color 0.3s;
 }
 
-/*TEMAS DE FISICA*/
-.phystit {
+/*Colores en la página de Física*/
+.phystit{
   background-color: rgb(255, 225, 161);
   height: 90px;
 }
@@ -118,8 +110,8 @@ h3{
   border-color: rgb(204, 180, 128);
 }
 
-/*TEMAS DE QUIMICA*/
-.chetit {
+/*Colores en la página de Química*/
+.chetit{
   background-color: rgb(151, 204, 205);
   height: 90px;
 }
@@ -128,8 +120,8 @@ h3{
   border-color: rgb(120, 163, 164);
 }
 
-/*TEMAS DE HISTORIA*/
-.histit {
+/*Colores en la página de Historia*/
+.histit{
   background-color: rgb(135,193,89);
   height: 90px;
 }
@@ -138,8 +130,8 @@ h3{
   border-color: rgb(108, 154, 71);
 }
 
-/*TEMAS DE BIOLOGIA*/
-.biotit {
+/*Colores en la página de Biología*/
+.biotit{
   background-color: rgb(5, 110, 60);
   height: 90px;
 }
@@ -148,8 +140,8 @@ h3{
   border-color: rgb(4, 88, 48);  
 }
 
-/*NAV BAR*/
-nav {
+/*Nav Bar*/
+nav{
   position: fixed;
   top: 0;
   left: 0;
@@ -160,7 +152,7 @@ nav {
   border-bottom: 4px solid #e8e8ee;
   z-index: 1;
 }
-.logobridge {
+.logobridge{
   vertical-align: middle;
   justify-content: left;
   align-items: left;
@@ -169,7 +161,7 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout, .registro, .inicio {
+.logout, .registro, .inicio{
   display: inline-block;
   width: 170px;
   height: 50px;
@@ -185,31 +177,21 @@ nav {
 .logout{
   margin-right: 4px;
 }
-.registro {
+.registro{
   margin-right: 5px;
 }
-.inicio {
+.inicio{
   margin-right: 10px;
 }
-.registro {
-  font-size: 20px;
-  font-family: 'Quicksand';
-  border-radius: 7px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-}
-.logout:hover, .registro:hover, .inicio:hover {
+.logout:hover, .registro:hover, .inicio:hover{
   background-color: rgb(221, 144, 0);
 }
 .logout:active, .logout:active, .registro:active{
   background-color: rgb(194, 126, 1);
 }
 
-/*FOOTER*/
-footer {
+/*Footer*/
+footer{
   margin: 0px;
   background-color: rgb(255, 173, 0);
   color: #fff;
@@ -220,13 +202,13 @@ footer {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-.leftfoot {
+.leftfoot{
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-.footer-logo {
+.footer-logo{
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -237,40 +219,41 @@ footer {
   height: auto;
   margin-bottom: 10px;
 }
-.company-name {
+.company-name{
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
 }
-.missionsub {
+.missionsub{
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
 }
-.copyright {
+.copyright{
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-info {
+.contact-info{
   text-align: left;
 }
 .sub {
   margin-top: -25px;
   font-size: 20px;
 }
-.tit {
+.tit{
   font-weight: bold;
   font-size: 25px;
 }
-.email p.sub a {
+.email p.sub a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
 }
-.email p.sub a:hover {
-  color: rgb(178, 178, 178);
+.email p.sub a:hover{
+  color: rgb(236, 236, 236);
 }
-.email p.sub a:active {
-  color: rgb(153, 153, 153);
+.email p.sub a:active{
+  color: rgb(229, 229, 229);
 }

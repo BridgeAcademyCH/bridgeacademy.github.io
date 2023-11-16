@@ -1,40 +1,39 @@
-@font-face {
+/*Tipografía de la página*/
+@font-face{
     font-family: 'Quicksand';
     src: url('img/fuente.ttf') format('truetype');
 }
 
-.logobridge {
+/*Logo superior*/
+.logobridge{
     height: 25%; 
     width: 30%;
     margin-top: 5%;
-}       
+}
 
-.padre {
-    height: 100vh;
+/*Ajustes de los contenedores*/
+.padre{
     text-align: center;
     justify-content: center;
     display: flex;
 }
-.box2 {
+.box, .box2{
     width: 30%;
-    height: 57%;
     background-color: rgb(255, 255, 255);
     border: 3px solid rgb(196, 196, 196);
     box-sizing: border-box;
     border-radius: 7px;
     display: flex;
 }
-.box {
-    width: 30%;
+.box{
     height: 54.5%;
-    background-color: rgb(255, 255, 255);
-    border: 3px solid rgb(196, 196, 196);
-    box-sizing: border-box;
-    border-radius: 7px;
-    display: flex;
+}
+.box2{
+    height: 390px;
 }
 
-.tittle {
+/*Títulos de los contenedores*/
+.tittle{
     font-size: 40px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
@@ -44,8 +43,7 @@
     margin-bottom: 5px;
 
 }
-
-.subject {
+.subject{
     font-size: 20px;
     font-family: 'Quicksand', sans-serif;
     color: rgb(148, 148, 148);
@@ -54,7 +52,8 @@
     margin-top: auto;
 }
 
-input {
+/*Entradas de textos*/
+input{
     margin-right: 10%;
     border: none;
     border-bottom: 2px solid orange;
@@ -63,14 +62,14 @@ input {
     padding: 5px 0;
     color: rgb(148, 148, 148);
 }
-
-input::placeholder {
+input::placeholder{
     color: rgb(148, 148, 148);
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
 }
 
-.other {
+/*Links entre las páginas de Sign In y Sign Up*/
+.other{
     text-align: left;
     margin-left: 10%;
     margin-bottom: 25px;
@@ -79,14 +78,14 @@ input::placeholder {
     color: rgb(148, 148, 148);
     font-size: 18px;
 }
-
-a {
+a{
     text-decoration: none;
     font-family: 'Quicksand', sans-serif;
     color: orange;
 }
 
-.sign {
+/*Botones para iniciar sesión y crear cuenta*/
+.sign, .createacc{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     border-radius: 7px;
@@ -101,32 +100,19 @@ a {
     margin-bottom: 20;
     transition: background-color 0.3s;
 }
-
-
-.sign:hover {
+.createacc, .sign{
+    margin-left: 73%;
+    margin-top: -4%;
+}
+.sign:hover{
     background-color: rgb(221, 144, 0);
 }
-
-.sign:active {
+.sign:active{
     background-color: rgb(194, 126, 1);
 }
-.createacc {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    border-radius: 7px;
-    width: 50%;
-    height: 15%;
-    font-size: 20px;
-    color: white;
-    border: none;
-    background-color: orange;
-    margin-left: 226px;
-    margin-top: -10px;
-    transition: background-color 0.3s;
-}
-.createacc:hover {
+.createacc:hover{
     background-color: rgb(221, 144, 0);
 }
-.createacc:active {
+.createacc:active{
     background-color: rgb(194, 126, 1);
 }

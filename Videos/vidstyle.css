@@ -1,106 +1,10 @@
-/*TIPOGRAFÍA DE LA PÁGINA*/
-@font-face {
+/*Tipografía de la página*/
+@font-face{
   font-family: 'Quicksand';
   src: url('../img/fuente.ttf') format('truetype');
 }
 
-/*CONTENIDO DE FÍSICA*/
-.scinotit {
-  margin-top: 74px;
-  background-color: rgb(255, 225, 161);
-  height: 90px;
-}
-.fiquizlink, .ficongslink{
-  font-size: 20px;
-  font-family: 'Quicksand';
-  padding: 10px 15px;
-  background-color: rgb(255, 225, 161);
-  border-style: solid;
-  border-color: rgb(204, 180, 128);
-  transition: background-color 0.3s;
-}
-.fiquizlink:hover, .ficongslink:hover {
-  background-color: rgb(204, 180, 128);
-  border-color:rgb(178, 157, 112); ;
-}
-.fiquizlink:focus, .ficongslink:focus {
-  background-color: rgb(178, 157, 112); 
-  border-color: rgb(153, 135, 76);
-}
-
-/*CONTENIDO DE QUÍMICA*/
-.nomentit {
-  margin-top: 74px;
-  background-color: rgb(151, 204, 205);
-  height: 90px;
-}
-.chequizlink, .checongslink{
-  font-size: 20px;
-  font-family: 'Quicksand';
-  padding: 10px 15px;
-  background-color: rgb(151, 204, 205);
-  border-style: solid;
-  border-color: rgb(120, 163, 164);
-  transition: background-color 0.3s;
-}
-.chequizlink:hover, .checongslink:hover {
-  background-color: rgb(120, 163, 164); 
-  border-color: rgb(105, 142, 143); ;
-}
-.chequizlink:hover, .checongslink:hover {
-  background-color: rgb(105, 142, 143); 
-  border-color: rgb(90, 122, 123);
-}
-
-/*CONTENIDO DE BIOLOGÍA*/
-.menlawtit {
-  margin-top: 74px;
-  background-color: rgb(5, 110, 60);
-  height: 90px;
-}
-.bioquizlink, .biocongslink{
-  font-size: 20px;
-  font-family: 'Quicksand';
-  padding: 10px 15px;
-  background-color: rgb(5, 110, 60);
-  border-style: solid;
-  border-color: rgb(4, 88, 48);
-  transition: background-color 0.3s;
-}
-.bioquizlink:hover, .biocongslink:hover {
-  background-color: rgb(4, 88, 48);
-  border-color: rgb(4, 77, 42);
-}
-.bioquizlink:active, .biocongslink:active {
-  background-color: rgb(4, 77, 42);
-  border-color: rgb(3, 66, 36);
-}
-
-/*CONTENIDO DE HISTORIA*/
-.wwstit {
-  margin-top: 74px;
-  background-color: rgb(135,193,89);
-  height: 90px;
-}
-.hisquizlink, .hiscongslink{
-  font-size: 20px;
-  font-family: 'Quicksand';
-  padding: 10px 15px;
-  background-color: rgb(135,193,89);
-  border-style: solid;
-  border-color: rgb(108, 154, 71);
-  transition: background-color 0.3s;
-}
-.hisquizlink:hover, .hiscongslink:hover{
-  background-color: rgb(108, 154, 71);
-  border-color: rgb(94, 135, 62);
-}
-.hisquizlink:active, .hiscongslink:active{
-  background-color: rgb(94, 135, 62);
-  border-color: rgb(81, 115, 53);
-}
-
-/*CONTENIDO PRESENTE EN TODAS LAS PÁGINAS DE VIDEOS*/
+/*Contenido presente en todas las páginas*/
 .scinovid{
   margin-left: 60px;
   margin-top: 25px;
@@ -117,7 +21,7 @@
   position: absolute;
   top: 50%; transform: translateY(-50%);
 }
-.vidstit {
+.vidstit{
   font-family: 'Quicksand', sans-serif;
   font-size: 60px;
   margin-left: 10px;
@@ -141,8 +45,92 @@
   margin-bottom: 10px;
 }
 
-/*NAV BAR*/
-nav {
+/*Colores de la página de Física*/
+.scinotit{
+  background-color: rgb(255, 225, 161);
+}
+.fiquizlink, .ficongslink{
+  background-color: rgb(255, 225, 161);
+  border-color: rgb(204, 180, 128);
+}
+.fiquizlink:hover, .ficongslink:hover{
+  background-color: rgb(204, 180, 128);
+  border-color:rgb(178, 157, 112); ;
+}
+.fiquizlink:active, .ficongslink:active{
+  background-color: rgb(178, 157, 112); 
+  border-color: rgb(153, 135, 76);
+}
+
+/*Colores de la página de Química*/
+.nomentit{
+  background-color: rgb(151, 204, 205);
+}
+.chequizlink, .checongslink{
+  background-color: rgb(151, 204, 205);
+  border-color: rgb(120, 163, 164);
+}
+.chequizlink:hover, .checongslink:hover{
+  background-color: rgb(120, 163, 164); 
+  border-color: rgb(105, 142, 143); ;
+}
+.chequizlink:active, .checongslink:active{
+  background-color: rgb(105, 142, 143); 
+  border-color: rgb(90, 122, 123);
+}
+
+/*Colores de la página de Historia*/
+.wwstit{
+  background-color: rgb(135,193,89);
+}
+.hisquizlink, .hiscongslink{
+  background-color: rgb(135,193,89);
+  border-color: rgb(108, 154, 71);
+}
+.hisquizlink:hover, .hiscongslink:hover{
+  background-color: rgb(108, 154, 71);
+  border-color: rgb(94, 135, 62);
+}
+.hisquizlink:active, .hiscongslink:active{
+  background-color: rgb(94, 135, 62);
+  border-color: rgb(81, 115, 53);
+}
+
+/*Colores de la página Biología*/
+.menlawtit{
+  background-color: rgb(5, 110, 60);
+}
+.bioquizlink, .biocongslink{
+  background-color: rgb(5, 110, 60);
+  border-color: rgb(4, 88, 48);
+}
+.bioquizlink:hover, .biocongslink:hover{
+  background-color: rgb(4, 88, 48);
+  border-color: rgb(4, 77, 42);
+}
+.bioquizlink:active, .biocongslink:active{
+  background-color: rgb(4, 77, 42);
+  border-color: rgb(3, 66, 36);
+}
+
+/*Botones de los quizzes y congrats junto a los títulos de los videos*/
+.fiquizlink, .ficongslink, .chequizlink, .checongslink,
+.bioquizlink, .biocongslink, .hisquizlink, .hiscongslink{
+  font-size: 20px;
+  font-family: 'Quicksand';
+  padding: 10px 15px;
+  background-color: rgb(255, 225, 161);
+  border-style: solid;
+  border-color: rgb(204, 180, 128);
+  transition: background-color 0.3s;
+}
+.scinotit, .nomentit, .wwstit, .menlawtit{
+  margin-top: 74px;
+  height: 90px;
+}
+
+/*Nav Bar*/
+nav{
   position: fixed;
   top: 0;
   left: 0;
@@ -153,7 +141,7 @@ nav {
   border-bottom: 4px solid #e8e8ee;
   z-index: 1;
 }
-.logobridge {
+.logobridge{
   vertical-align: middle;
   justify-content: left;
   align-items: left;
@@ -162,7 +150,7 @@ nav {
   max-width: 100%;
   max-height: 100%;
 }
-.logout, .registro, .inicio {
+.logout, .registro, .inicio{
   display: inline-block;
   width: 170px;
   height: 50px;
@@ -178,31 +166,21 @@ nav {
 .logout{
   margin-right: 4px;
 }
-.registro {
+.registro{
   margin-right: 5px;
 }
-.inicio {
+.inicio{
   margin-right: 10px;
 }
-.registro {
-  font-size: 20px;
-  font-family: 'Quicksand';
-  border-radius: 7px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-}
-.logout:hover, .registro:hover, .inicio:hover {
+.logout:hover, .registro:hover, .inicio:hover{
   background-color: rgb(221, 144, 0);
 }
 .logout:active, .logout:active, .registro:active{
   background-color: rgb(194, 126, 1);
 }
-  
-/*FOOTER*/
-footer {
+
+/*Footer*/
+footer{
   margin: 0px;
   background-color: rgb(255, 173, 0);
   color: #fff;
@@ -213,13 +191,13 @@ footer {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-.leftfoot {
+.leftfoot{
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-.footer-logo {
+.footer-logo{
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -230,40 +208,41 @@ footer {
   height: auto;
   margin-bottom: 10px;
 }
-.company-name {
+.company-name{
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
 }
-.missionsub {
+.missionsub{
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
 }
-.copyright {
+.copyright{
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-info {
+.contact-info{
   text-align: left;
 }
 .sub {
   margin-top: -25px;
   font-size: 20px;
 }
-.tit {
+.tit{
   font-weight: bold;
   font-size: 25px;
 }
-.email p.sub a {
+.email p.sub a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
 }
-.email p.sub a:hover {
-  color: rgb(178, 178, 178);
+.email p.sub a:hover{
+  color: rgb(236, 236, 236);
 }
-.email p.sub a:active {
-  color: rgb(153, 153, 153);
+.email p.sub a:active{
+  color: rgb(229, 229, 229);
 }
