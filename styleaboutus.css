@@ -1,160 +1,129 @@
-@font-face {
-    font-family: 'Quicksand';
-    src: url('img/fuente.ttf') format('truetype');
-  }
-
-.imagenportada2 {
-    width: 100%;
-    margin-top: 60px;
+/*Tipografía de la página*/
+@font-face{
+  font-family: 'Quicksand';
+  src: url('img/fuente.ttf') format('truetype');
 }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    padding: 10px;
-    user-select: none;
-    border-bottom: 4px solid #e8e8ee;
+/*Imagen principal*/
+.imagenportada2{
+  width: 100%;
+  margin-top: 60px;
 }
 
-.logobridge {
-    vertical-align: middle;
-    justify-content: left;
-    align-items: left;
-    height: 50px; 
-    display: inline-block;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.registro,
-.logout {
-    display: inline-block;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: bold;
-    margin-right: 5px;
-    border-radius: 7px;
-    width: 170px;
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    border: none;
-    background-color: orange;
-    transition: background-color 0.3s;
-}
-
-.inicio{
-  display: inline-block;
+/*Contenedor con la imagen de la chica escribiendo*/
+.somos{
   font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-  margin-right: 30px;
+}
+.titulo1{
+  margin-top: 50px;
+  margin-left: 225px;
+  font-size: 105px;
+}
+.titulo2{
+  border-bottom: 7px solid orange;
+}
+.unapersona{
+  width: 50%;
+  height: 100%;
+  margin-left: 3%;
+}
+.info1{
+  margin-left: 55%;
+  font-size: 45px;
+  margin-top: -25%;
+}
+
+/*Contenedor con la imagen de la calculadora*/
+.parteabajo{
+  font-family: 'Quicksand', sans-serif;
+}
+.aprender{
+  margin-left: 30px;
+  font-size: 80px;
+}
+.subrayado{
+  border-bottom: 7px solid orange;
+  width: 1%;
+}
+.incrementa{
+  margin-left: 40px;
+  font-size: 35px;
+}
+.calculadora{
+  margin-left: 59%;
+  margin-top: -400px;
+  height: 500px;
+}
+.startnow {
+  margin-bottom: 100px;
+  margin-left: 200px;
+  margin-top: -200;
   border-radius: 7px;
-  width: 170px;
-  height: 50px;
-  font-size: 20px;
+  width: 400px;
+  height: 70px;
+  font-size: 40px;
   color: white;
   border: none;
   background-color: orange;
   transition: background-color 0.3s;
 }
-
-
-.registro:hover,
-.inicio:hover,
-.logout:hover {
-    background-color: rgb(221, 144, 0);
-}
-
-.registro:active,
-.inicio:active,
-.logout:active {
-    background-color: rgb(194, 126, 1);
-}
-
-.somos {
-    margin-top: 1px;
-}
-
-.titulo1 {
-    margin-top: 50px;
-    margin-left: 225px;
-    font-size: 105px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.titulo2 {
-    border-bottom: 7px solid orange;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.unapersona {
-    width: 50%;
-    height: 100%;
-    margin-left: 55px;
-}
-
-.info1 {
-    margin-left: 56%;
-    font-size: 45px;
-    margin-top: -335px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.subrayado {
-    border-bottom: 7px solid orange;
-    width: 1%;
-}
-
-.aprender {
-    margin-left: 30px;
-    font-size: 80px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.incrementa {
-    margin-left: 40px;
-    font-size: 35px;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.calculadora {
-    margin-left: 59%;
-    margin-top: -400px;
-    height: 500px;
-}
-
-.startnow {
-    font-family: 'Quicksand', sans-serif;
-    margin-bottom: 100px;
-    margin-left: 200px;
-    margin-top: -200;
-    border-radius: 7px;
-    width: 400px;
-    height: 70px;
-    font-size: 40px;
-    color: white;
-    border: none;
-    background-color: orange;
-    transition: background-color 0.3s;
-}
-
 .startnow:hover {
-    background-color: rgb(221, 144, 0);
+  background-color: rgb(221, 144, 0);
 }
-
 .startnow:active {
-    background-color: rgb(194, 126, 1);
+  background-color: rgb(194, 126, 1);
 }
 
-.piedepagina {
-    width: 100%;
+/*Nav Bar*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  user-select: none;
+  border-bottom: 4px solid #e8e8ee;
+  z-index: 1;
 }
- 
-/*FOOTER*/
-footer {
-  margin: 0px;
+.logobridge{
+  vertical-align: middle;
+  justify-content: left;
+  align-items: left;
+  height: 50px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logout, .registro, .inicio{
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.logout, .registro{
+  margin-right: 5px;
+}
+.inicio{
+  margin-right: 30px;
+}
+.logout:hover, .registro:hover, .inicio:hover{
+  background-color: rgb(221, 144, 0);
+}
+.logout:active, .logout:active, .registro:active{
+  background-color: rgb(194, 126, 1);
+}
+
+/*Footer*/
+footer{
+  margin: -0.6%;
   background-color: rgb(255, 173, 0);
   color: #fff;
   padding: 30px 200px 20px 30px;
@@ -164,13 +133,13 @@ footer {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-.leftfoot {
+.leftfoot{
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-.footer-logo {
+.footer-logo{
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -181,34 +150,41 @@ footer {
   height: auto;
   margin-bottom: 10px;
 }
-.company-name {
+.company-name{
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
 }
-.missionsub {
+.missionsub{
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
 }
-.copyright {
+.copyright{
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-info {
+.contact-info{
   text-align: left;
 }
 .sub {
   margin-top: -25px;
   font-size: 20px;
 }
-.tit {
+.tit{
   font-weight: bold;
   font-size: 25px;
 }
-.email p.sub a {
+.email p.sub a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
+}
+.email p.sub a:hover{
+  color: rgb(201, 201, 201);
+}
+.email p.sub a:active{
+  color: rgb(177, 177, 177);
 }

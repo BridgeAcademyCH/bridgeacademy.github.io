@@ -1,130 +1,39 @@
-@font-face {
+/*Tipografía de la página*/
+@font-face{
     font-family: 'Quicksand';
     src: url('img/fuente.ttf') format('truetype');
 }
 
+/*Gif del fondo*/
 body{
   background-image: url(img/congrats.gif);
   background-size: 70% auto;
 }
 
-/*NAV*/
-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white;
-  padding: 10px;
-  user-select: none;
-  border-bottom: 4px solid #e8e8ee;
-  z-index: 1;
+/*Texto central*/
+.congstext{
+  align-self: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
 }
-.logobridge {
-  vertical-align: middle;
-  justify-content: left;
-  align-items: left;
-  height: 50px;
-  display: inline-block;
-  max-width: 100%;
-  max-height: 100%;
-}
-.logout {
-  display: inline-block;
-  margin-right: 5px;
-  width: 170px;
-  height: 50px;
-}
-.registro {
-  display: inline-block;
-  margin-right: 5px;
-  width: 170px;
-  height: 50px;
-}
-.inicio {
-  display: inline-block;
-  margin-right: 30px;
-  width: 170px;
-  height: 50px;
-}
-.registro {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.registro:hover {
-background-color: rgb(221, 144, 0);
-}
-.registro:active{
-background-color: rgb(194, 126, 1);
-}
-
-.inicio {
-font-size: 20px;
-font-family: 'Quicksand';
-border-radius: 7px;
-font-weight: bold;
-color: white;
-border: none;
-background-color: orange;
-transition: background-color 0.3s;
-}
-.inicio:hover {
-background-color: rgb(221, 144, 0);
-}
-.inicio:active{
-background-color: rgb(194, 126, 1);
-}
-.logout {
-  font-size: 20px;
-  font-family: 'Quicksand';
-  border-radius: 7px;
-  font-weight: bold;
-  color: white;
-  border: none;
-  background-color: orange;
-  transition: background-color 0.3s;
-  }
-  .logout:hover {
-  background-color: rgb(221, 144, 0);
-  }
-  .logout:active{
-  background-color: rgb(194, 126, 1);
-  }
-
-/*CONTENIDO*/
 .congrats{
-    margin-left: 40px;
-    margin-top: 94px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 50px;
-    text-align: center;
+  margin-top: 94px;
+  font-size: 50px;
 }
 .congrats2{
-    margin-left: 40px;
-    font-family: 'Quicksand', sans-serif ;
-    font-size: 30px;
-    text-align: center;
+  font-size: 30px;
 }
 .congrats3{
-    margin-left: 40px;
-    color: rgba(255, 173, 0);
-    font-family: 'Quicksand', sans-serif;
-    font-size: 25px;
-    text-align: center;
+  color: rgba(255, 173, 0);
+  font-size: 25px;
 }
 
+/*Botones e imágenes inferiores*/
 .btn-groupt{
-    align-items: center;
-    height: 100px;
-    width: 100px;
-    color-scheme:151, 204, 205 ;
-
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  color-scheme:151, 204, 205 ;
 }
 
 .History{
