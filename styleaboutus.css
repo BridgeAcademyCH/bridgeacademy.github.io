@@ -66,6 +66,7 @@
   border: none;
   background-color: orange;
   transition: background-color 0.3s;
+  font-family: 'Quicksand', sans-serif;
 }
 .startnow:hover {
   background-color: rgb(221, 144, 0);

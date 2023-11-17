@@ -116,7 +116,7 @@
 /*Botones de los quizzes y congrats junto a los títulos de los videos*/
 .fiquizlink, .ficongslink, .chequizlink, .checongslink,
 .bioquizlink, .biocongslink, .hisquizlink, .hiscongslink{
-  font-size: 20px;
+  font-size: 21px;
   font-family: 'Quicksand';
   padding: 10px 15px;
   border-style: solid;
