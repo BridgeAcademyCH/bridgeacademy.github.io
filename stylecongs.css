@@ -1,13 +1,17 @@
 /*Tipografía de la página*/
 @font-face{
-    font-family: 'Quicksand';
-    src: url('img/fuente.ttf') format('truetype');
+  font-family: 'Quicksand';
+  src: url('img/fuente.ttf') format('truetype');
 }
 
 /*Gif del fondo*/
-body{
-  background-image: url(img/congrats.gif);
-  background-size: 70% auto;
+body {
+  margin: 0;
+  overflow: hidden;
+  background-image: url('img/congrats.gif');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 /*Texto central*/
@@ -28,143 +32,154 @@ body{
   font-size: 25px;
 }
 
-/*Botones e imágenes inferiores*/
-.btn-groupt{
-  align-items: center;
-  height: 100px;
-  width: 100px;
-  color-scheme:151, 204, 205 ;
+/*Contenedor de botones e imágenes*/
+.divisote{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
 }
 
-.History{
-    background-color: rgb(135,193,89);
-    border-color: rgb(108, 154, 71);
-    border-style: solid;
-    margin-right: 145px;
-    border-radius: 7px;
-    height: 62px;
-    width: 174px;
-    border: 3px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 35px;
-    color: rgba(255, 255, 255);
+/*Botones inferiores*/
+.Physics, .Chemistry, .History, .Biology{
+  border-style: solid;
+  border-radius: 7px;
+  height: 62px;
+  width: 174px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  color: rgba(255, 255, 255);
+  transition: background-color 0.3s;
 }
-.History:hover {
-  background-color: rgb(108, 154, 71);
-  border-color: rgb(94, 135, 62);
+.Physics{
+  background-color: rgba(255, 225, 161);
+  border-color: rgb(204, 180, 128);
+  margin-left: 125px;
+  margin-right: 40px;
 }
-.History:active {
-  background-color: rgb(94, 135, 62);
-  border-color: rgb(81, 115, 53);
-}
-
 .Chemistry{
-    background-color: rgba(151, 204, 205);
-    border-color: rgb(120, 163, 164);
-    border-style: solid;
-    margin-left: 1px;
-    margin-right: 15px;
-    border-radius: 7px;
-    height: 62px;
-    width: 174px;
-    border: 3px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 35px;
-    color: rgba(255, 255, 255);
+  background-color: rgba(151, 204, 205);
+  border-color: rgb(120, 163, 164);
+  margin-left: 1px;
+  margin-right: 15px;
 }
-.Chemistry:hover {
+.History{
+  background-color: rgb(135,193,89);
+  border-color: rgb(108, 154, 71);
+  margin-right: 145px;
+}
+.Biology{
+  background-color: rgb(5, 110, 60);
+  border-color: rgb(4, 88, 48);
+  margin-right: 130px;
+  margin-left: 40px;
+}
+
+/*Actives y hovers de los botones*/
+.Physics:hover{
+  background-color: rgb(204, 180, 128);
+  border-color:rgb(178, 157, 112); ;
+}
+.Physics:active{
+  background-color: rgb(178, 157, 112); 
+  border-color: rgb(153, 135, 76);
+}
+.Chemistry:hover{
   background-color: rgb(120, 163, 164); 
   border-color: rgb(105, 142, 143); ;
 }
-.Chemistry:active {
+.Chemistry:active{
   background-color: rgb(105, 142, 143); 
   border-color: rgb(90, 122, 123);
 }
-
-
-.Biology{
-    background-color: rgb(5, 110, 60);
-    border-color: rgb(4, 88, 48);
-    border-style: solid;
-    margin-right: 130px;
-    margin-left: 40px;
-    border-radius: 7px;
-    height: 62px;
-    width: 174px;
-    border: 3px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 35px;
-    color: rgba(255, 255, 255);
+.History:hover{
+  background-color: rgb(108, 154, 71);
+  border-color: rgb(94, 135, 62);
 }
-.Biology:hover {
+.History:active{
+  background-color: rgb(94, 135, 62);
+  border-color: rgb(81, 115, 53);
+}
+.Biology:hover{
   background-color: rgb(4, 88, 48);
   border-color: rgb(4, 77, 42);
 }
-.Biology:active {
+.Biology:active{
   background-color: rgb(4, 77, 42);
   border-color: rgb(3, 66, 36);
 }
 
-.Physics{
-    background-color: rgba(255, 225, 161);
-    border-color: rgb(204, 180, 128);
-    border-style: solid;
-    margin-left: 125px;
-    margin-right: 40px;
-    border-radius: 7px;
-    height: 62px;
-    width: 174px;
-    border: 3px;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 35px;
-    color: rgba(255, 255, 255);
+/*Imágenes inferiores*/
+.physic1, .biology1, .chemistry1, .history1{
+  margin-top: 20px;
+  width: 174px;
+  height: auto;
 }
-.Physics:hover {
-  background-color: rgb(204, 180, 128);
-  border-color:rgb(178, 157, 112); ;
+.physic1{ 
+  margin-left: 125px;
+  margin-right: 40px;
 }
-.Physics:active {
-  background-color: rgb(178, 157, 112); 
-  border-color: rgb(153, 135, 76);
-}
-
-.physic1{ margin-left: 125px;
-    margin-right: 40px;
-    margin-top: 20px;
-    width: 174px;
-    height: auto;
-}
-
 .biology1{
-    margin-right: 130px;
-    margin-left: 40px;
-    margin-top: 20px;
-    width: 174px;
-    height: auto;
+  margin-right: 130px;
+  margin-left: 40px;
+}
+.chemistry1{
+  margin-left: 1px;
+  margin-right: 15px;
+}
+.history1{
+  margin-right: 145px;
 }
 
-.chemistry1{ margin-left: 1px;
-    margin-right: 15px;
-    margin-top: 20px;
-    width: 174px;
-    height: auto;
+/*Nav Bar*/
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  user-select: none;
+  border-bottom: 4px solid #e8e8ee;
+  z-index: 1;
+}
+.logobridge{
+  vertical-align: middle;
+  justify-content: left;
+  align-items: left;
+  height: 50px;
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+}
+.logout, .registro, .inicio{
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  font-size: 20px;
+  font-family: 'Quicksand';
+  border-radius: 7px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: orange;
+  transition: background-color 0.3s;
+}
+.logout, .registro{
+  margin-right: 5px;
+}
+.inicio{
+  margin-right: 30px;
+}
+.logout:hover, .registro:hover, .inicio:hover{
+  background-color: rgb(221, 144, 0);
+}
+.logout:active, .logout:active, .registro:active{
+  background-color: rgb(194, 126, 1);
 }
 
-.history1{  margin-right: 145px;
-    margin-top: 20px;
-    width: 174px;
-    height: auto;
-}
-
-.divisote{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    text-align: center;
-}
-
-/*FOOTER*/
-footer {
-  margin: 0px;
+/*Footer*/
+footer{
+  margin: -0.6%;
   background-color: rgb(255, 173, 0);
   color: #fff;
   padding: 30px 200px 20px 30px;
@@ -174,13 +189,13 @@ footer {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
 }
-.leftfoot {
+.leftfoot{
   display: flex;
   flex-direction: column;
   text-align: left;
   align-items: flex-start;
 }
-.footer-logo {
+.footer-logo{
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -191,44 +206,41 @@ footer {
   height: auto;
   margin-bottom: 10px;
 }
-.company-name {
+.company-name{
   font-size: 50px;
   font-weight: bold;
   margin-left: 15px;
 }
-.missionsub {
+.missionsub{
   text-align: left;
   font-size: 20px;
   margin-left: 35px;
   margin-bottom: 20px;
 }
-.copyright {
+.copyright{
   font-size: 14px;
   margin-bottom: 20px;
   text-align: center;
 }
-.contact-info {
+.contact-info{
   text-align: left;
 }
 .sub {
   margin-top: -25px;
   font-size: 20px;
 }
-.tit {
+.tit{
   font-weight: bold;
   font-size: 25px;
 }
-.email p.sub a {
+.email p.sub a{
   text-decoration: none;
-  color: white;
+  color: rgb(255, 255, 255);
+  transition: color 0.3s;
 }
-
-/*VIDEO DE CONFETTI DE FONDO*/
-#video-background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
+.email p.sub a:hover{
+  color: rgb(201, 201, 201);
+}
+.email p.sub a:active{
+  color: rgb(177, 177, 177);
 }

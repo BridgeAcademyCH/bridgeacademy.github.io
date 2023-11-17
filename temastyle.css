@@ -21,7 +21,7 @@ h3{
   overflow: hidden;
 }
 
-/*Botones de la parte de arriba. Actives y hovers de todos los botones*/
+/*Botones de la parte de arriba. Colores, actives y hovers de todos los botones*/
 .physbutt, .chebutt, .histbutt, .biobutt{
   height: 80px;
   width: 450px;
