@@ -93,11 +93,11 @@ h3{
 }
 .vectors, .nomen, .ww1, .evo{
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 .scinot, .stoich, .ww2, .men{
   float: right;
-  margin-right: 100px;
+  margin-right: 80px;
 }
 
 /*Colores en la página de Física*/

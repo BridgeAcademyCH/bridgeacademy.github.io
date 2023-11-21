@@ -4,7 +4,7 @@
   src: url('../img/fuente.ttf') format('truetype');
 }
 
-/*Contenido presente en todas las páginas*/
+/*Contenido presente en todas las páginas, como títulos, botones de quizzes y flechas*/
 .scinovid{
   margin-left: 60px;
   margin-top: 25px;
@@ -16,8 +16,8 @@
   font-size: 30px;
 }
 .quizzbutt{
-  margin-left: 850px;
-  margin-top: 100px;
+  margin-left: 785px;
+  margin-top: 140px;
   position: absolute;
   top: 50%; transform: translateY(-50%);
 }

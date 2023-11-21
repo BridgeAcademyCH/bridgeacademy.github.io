@@ -8,7 +8,7 @@
 .logobridge{
     height: 25%; 
     width: 30%;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 /*Ajustes de los contenedores*/
@@ -91,8 +91,8 @@ a{
 .sign, .createacc{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    width: 50%;
-    height: 15%;
+    width: 150px;
+    height: 60px;
     border-radius: 7px;
     font-size: 20px;
     color: white;
@@ -102,12 +102,12 @@ a{
     transition: background-color 0.3s;
 }
 .createacc{
-    margin-left: 73%;
-    margin-top: -4%;
+    margin-left: 67%;
+    margin-top: -5%;
 }
 .sign{
-    margin-left: 74%;
-    margin-top: -6%;
+    margin-left: 72%;
+    margin-top: -7%;
 }
 .sign:hover, .createacc:hover{
     background-color: rgb(221, 144, 0);
