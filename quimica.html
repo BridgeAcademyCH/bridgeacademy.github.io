@@ -11,6 +11,7 @@
   <title> Bridge Academy - Chemistry </title>
 </head>
 <body>
+  <!--Esta es la página de los temas de Química-->
   <nav>
     <div style="display: grid; grid-template-columns: auto auto;">
       <img src="img/logobridge.png" alt="logobridge" class="logobridge">
@@ -21,16 +22,19 @@
       </div>
     </div>
   </nav>
+  <!--Primer div. Contiene los botones a las otras tres materias. Está en la parte superior de la ventana-->
   <div class="btn-group" role="group" aria-label="Basic outlined example">
     <button type="button" class="physbutt btn-outline-primary" onclick="window.location.href='fisica.html'">Physics</button>
     <button type="button" class="histbutt btn-outline-primary" onclick="window.location.href='historia.html'">History</button>
     <button type="button" class="biobutt btn-outline-primary" onclick="window.location.href='biologia.html'">Biology</button>
   </div>
   <br><br>
+  <!--Segundo div. Es el título de la materia-->
   <div class="chetit">
     <h3>Chemistry</h3>
   </div>
   </br><br>
+  <!--Tercer div. Contiene los botones de los temas de la materia-->
   <div class="temas">
     <button type="button" class="nomen" onclick="window.location.href='Videos/nomen.html'"> Nomenclature </button>
     <button type="button" class="stoich" onclick="window.location.href='Videos/stoich.html'"> Stoichiometry </button>
@@ -56,12 +60,14 @@
             <p class="tit">Phone</p>
             <p class="sub">612 345 678</p>
         </div>
+        <!--Al darle click a esto, te dirigirá a tu aplicación de correo para que redactes uno a la empresa-->
         <div class="email">
             <p class="tit">Email</p>
             <p class="sub"><a href="mailto:bridgeacademycompany@gmail.com">bridgeacademycompany@gmail.com</a></p>
         </div>
     </div>
   </footer>
+  <!--Link de Bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>   
 </body>
 </html>
