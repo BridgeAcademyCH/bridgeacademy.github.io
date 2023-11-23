@@ -11,6 +11,7 @@
     <title> Bridge Academy - Mendel's Laws </title>
 </head>
 <body>
+    <!--Esta es la página del tema "Leyes de Mendel"-->
     <nav>
         <div style="display: grid; grid-template-columns: auto auto;">
             <img src="../img/logobridge.png" alt="logobridge" class="logobridge">
@@ -21,16 +22,20 @@
             </div>
         </div>
     </nav>
+    <!--Primer div. Contiene el título y la flecha para retroceder-->
     <div class=menlawtit>
         <p class="vidstit"> <img src="../img/flecha3.png" class="flecha3" onclick="window.location.href='../biologia.html'"> Nomenclature </p>
     </div>
+    <!--Segundo div. Contiene los textos arriba del video-->
     <div class="infovid0">
         <h2 class="infovid"> Lesson #1 </h2>
         <h3 class="infovid1"> Informative Video </h3>
     </div>
+    <!--Tercer div. Contiene el video del tema-->
     <div class="scinovid">
         <iframe width="645" height="400" src="https://www.youtube.com/embed/Mehz7tCxjSE?si=klBAz4EL-WHJC2EW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+    <!--Cuarto div. Contiene los botones que llevan al quiz o a la página de Congrats-->
     <div class="quizzbutt d-flex justify-content-end align-items-center">
         <div class="text-center">
             <h3 class="thisis">This is the quiz from the video:</h3>
@@ -61,17 +66,20 @@
                 <p class="tit">Phone</p>
                 <p class="sub">612 345 678</p>
             </div>
+            <!--Al darle click a esto, te dirigirá a tu aplicación de correo para que redactes uno a la empresa-->
             <div class="email">
                 <p class="tit">Email</p>
                 <p class="sub"><a href="mailto:bridgeacademycompany@gmail.com">bridgeacademycompany@gmail.com</a></p>
             </div>
         </div>
     </footer>
+    <!--Este es el comando encargado de abrir una nueva pestaña con el quiz-->
     <script>
         function openNewTab() {
           var url = 'https://quizizz.com/join/quiz/604ff5d5af1ac7001b54fe1d/start?studentShare=true';
           window.open(url, '_blank');
         }
     </script>
+    <!--Link de Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
