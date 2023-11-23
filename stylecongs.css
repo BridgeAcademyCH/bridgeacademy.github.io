@@ -6,7 +6,7 @@
 
 /*Gif del fondo*/
 body{
-  background-image: url('img/congrats.png');
+  background-image: url('img/congrats.gif');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
